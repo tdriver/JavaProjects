@@ -1,0 +1,3 @@
+Somehow I decided to move the T_ColorChooser class from T_Algorithms and not put it anywhere else.  I found an old copy of the file (from 2002) and included it in the T_Beans project.  Unfortunately I do not have the .form copy so I can no longer edit the GUI - which has spacing problems.
+The current Teds Toolbox build will work, but the color changing from has GUI spacing issues.  Also, the Set button is not hooked up.
+Unless there is time to update the set event, I'd recommend removing the color chooser frame.  Doesn't really fit anyway In the Ted's toolbox anyway.

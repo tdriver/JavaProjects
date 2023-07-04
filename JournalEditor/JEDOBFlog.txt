@@ -1,0 +1,1246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<yguard version="1.5">
+<!--
+  yGuard Bytecode Obfuscator, v1.5.0_03, a Product of yWorks GmbH - http://www.yworks.com
+
+  Logfile created on Thu Feb 09 13:57:21 MST 2006
+
+  Jar file to be obfuscated:           JournalEditor.jar
+  Target Jar file for obfuscated code: JournalEditorOBF.jar
+
+-->
+<!--
+  Memory in use after class data structure built: 36187848 bytes
+  Total memory available                        : 70168576 bytes
+-->
+<expose>
+  <class name="driver.ted.Jed"/>
+  <method class="driver.ted.Jed" name="void main(java.lang.String[])"/>
+</expose>
+<map>
+  <package name="com" map="A"/>
+  <package name="com.incors" map="A"/>
+  <package name="com.incors.plaf" map="A"/>
+  <package name="com.incors.plaf.kunststoff" map="A"/>
+  <class name="com.incors.plaf.kunststoff.KunststoffTabbedPaneUI" map="A"/>
+  <field class="com.incors.plaf.kunststoff.KunststoffTabbedPaneUI" name="SHADOW_WIDTH" map="A"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffTabbedPaneUI" name="void paintTab(java.awt.Graphics, int, java.awt.Rectangle[], int, java.awt.Rectangle, java.awt.Rectangle)" map="paintTab"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffTabbedPaneUI" name="void installDefaults()" map="installDefaults"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffTabbedPaneUI" name="javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)" map="createUI"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffTabbedPaneUI" name="void paintTabBackground(java.awt.Graphics, int, int, int, int, int, int, boolean)" map="paintTabBackground"/>
+  <class name="com.incors.plaf.kunststoff.GradientTheme" map="B"/>
+  <method class="com.incors.plaf.kunststoff.GradientTheme" name="int getBackgroundGradientShadow()" map="A"/>
+  <method class="com.incors.plaf.kunststoff.GradientTheme" name="javax.swing.plaf.ColorUIResource getComponentGradientColorShadow()" map="B"/>
+  <method class="com.incors.plaf.kunststoff.GradientTheme" name="javax.swing.plaf.ColorUIResource getTextComponentGradientColorShadow()" map="C"/>
+  <method class="com.incors.plaf.kunststoff.GradientTheme" name="javax.swing.plaf.ColorUIResource getTextComponentGradientColorReflection()" map="D"/>
+  <method class="com.incors.plaf.kunststoff.GradientTheme" name="javax.swing.plaf.ColorUIResource getComponentGradientColorReflection()" map="E"/>
+  <class name="com.incors.plaf.kunststoff.KunststoffScrollBarUI" map="C"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffScrollBarUI" name="void paintThumb(java.awt.Graphics, javax.swing.JComponent, java.awt.Rectangle)" map="paintThumb"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffScrollBarUI" name="javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)" map="createUI"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffScrollBarUI" name="javax.swing.JButton createDecreaseButton(int)" map="createDecreaseButton"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffScrollBarUI" name="javax.swing.JButton createIncreaseButton(int)" map="createIncreaseButton"/>
+  <class name="com.incors.plaf.kunststoff.KunststoffComboBoxUI$MyMetalComboBoxButton" map="_A"/>
+  <field class="com.incors.plaf.kunststoff.KunststoffComboBoxUI$MyMetalComboBoxButton" name="this$0" map="this$0"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffComboBoxUI$MyMetalComboBoxButton" name="void paintComponent(java.awt.Graphics)" map="paintComponent"/>
+  <class name="com.incors.plaf.kunststoff.KunststoffComboBoxUI" map="D"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffComboBoxUI" name="javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)" map="createUI"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffComboBoxUI" name="javax.swing.JButton createArrowButton()" map="createArrowButton"/>
+  <class name="com.incors.plaf.kunststoff.KunststoffGradientTheme" map="E"/>
+  <field class="com.incors.plaf.kunststoff.KunststoffGradientTheme" name="backgroundGradientShadow" map="A"/>
+  <field class="com.incors.plaf.kunststoff.KunststoffGradientTheme" name="componentGradientColorReflection" map="B"/>
+  <field class="com.incors.plaf.kunststoff.KunststoffGradientTheme" name="textComponentGradientColorShadow" map="C"/>
+  <field class="com.incors.plaf.kunststoff.KunststoffGradientTheme" name="textComponentGradientColorReflection" map="D"/>
+  <field class="com.incors.plaf.kunststoff.KunststoffGradientTheme" name="componentGradientColorShadow" map="E"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffGradientTheme" name="int getBackgroundGradientShadow()" map="A"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffGradientTheme" name="javax.swing.plaf.ColorUIResource getComponentGradientColorShadow()" map="B"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffGradientTheme" name="javax.swing.plaf.ColorUIResource getTextComponentGradientColorShadow()" map="C"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffGradientTheme" name="javax.swing.plaf.ColorUIResource getTextComponentGradientColorReflection()" map="D"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffGradientTheme" name="javax.swing.plaf.ColorUIResource getComponentGradientColorReflection()" map="E"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffGradientTheme" name="java.lang.String getName()" map="F"/>
+  <class name="com.incors.plaf.kunststoff.KunststoffTextAreaUI" map="F"/>
+  <field class="com.incors.plaf.kunststoff.KunststoffTextAreaUI" name="myComponent" map="A"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffTextAreaUI" name="void paintBackground(java.awt.Graphics)" map="paintBackground"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffTextAreaUI" name="javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)" map="createUI"/>
+  <class name="com.incors.plaf.kunststoff.KunststoffToolBarUI" map="G"/>
+  <field class="com.incors.plaf.kunststoff.KunststoffToolBarUI" name="toolBarUI" map="A"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffToolBarUI" name="void paint(java.awt.Graphics, javax.swing.JComponent)" map="paint"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffToolBarUI" name="javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)" map="createUI"/>
+  <class name="com.incors.plaf.kunststoff.KunststoffButtonUI" map="H"/>
+  <field class="com.incors.plaf.kunststoff.KunststoffButtonUI" name="buttonUI" map="A"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffButtonUI" name="void paint(java.awt.Graphics, javax.swing.JComponent)" map="paint"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffButtonUI" name="javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)" map="createUI"/>
+  <class name="com.incors.plaf.kunststoff.KunststoffTableHeaderUI" map="I"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffTableHeaderUI" name="void paint(java.awt.Graphics, javax.swing.JComponent)" map="paint"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffTableHeaderUI" name="javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)" map="createUI"/>
+  <class name="com.incors.plaf.kunststoff.KunststoffTheme" map="J"/>
+  <field class="com.incors.plaf.kunststoff.KunststoffTheme" name="primary2" map="A"/>
+  <field class="com.incors.plaf.kunststoff.KunststoffTheme" name="primary1" map="B"/>
+  <field class="com.incors.plaf.kunststoff.KunststoffTheme" name="secondary3" map="C"/>
+  <field class="com.incors.plaf.kunststoff.KunststoffTheme" name="secondary2" map="D"/>
+  <field class="com.incors.plaf.kunststoff.KunststoffTheme" name="secondary1" map="E"/>
+  <field class="com.incors.plaf.kunststoff.KunststoffTheme" name="primary3" map="F"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffTheme" name="javax.swing.plaf.ColorUIResource getSecondary3()" map="getSecondary3"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffTheme" name="javax.swing.plaf.ColorUIResource getSecondary1()" map="getSecondary1"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffTheme" name="javax.swing.plaf.ColorUIResource getPrimary2()" map="getPrimary2"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffTheme" name="java.lang.String getName()" map="getName"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffTheme" name="javax.swing.plaf.ColorUIResource getSecondary2()" map="getSecondary2"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffTheme" name="javax.swing.plaf.ColorUIResource getPrimary3()" map="getPrimary3"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffTheme" name="javax.swing.plaf.ColorUIResource getPrimary1()" map="getPrimary1"/>
+  <class name="com.incors.plaf.kunststoff.KunststoffUtilities" map="K"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffUtilities" name="void drawGradient(java.awt.Graphics, java.awt.Color, java.awt.Color, java.awt.Rectangle, boolean)" map="A"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffUtilities" name="void drawGradient(java.awt.Graphics, java.awt.Color, java.awt.Color, java.awt.Rectangle, java.awt.Rectangle, boolean)" map="A"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffUtilities" name="boolean isToolkitTrueColor(java.awt.Component)" map="A"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffUtilities" name="java.awt.Color getTranslucentColor(java.awt.Color, int)" map="A"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffUtilities" name="java.awt.Color getTranslucentColorUIResource(java.awt.Color, int)" map="B"/>
+  <class name="com.incors.plaf.kunststoff.KunststoffListUI" map="L"/>
+  <field class="com.incors.plaf.kunststoff.KunststoffListUI" name="colBg" map="A"/>
+  <field class="com.incors.plaf.kunststoff.KunststoffListUI" name="isToolkitTrueColor" map="B"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffListUI" name="void update(java.awt.Graphics, javax.swing.JComponent)" map="update"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffListUI" name="void paintCell(java.awt.Graphics, int, java.awt.Rectangle, javax.swing.ListCellRenderer, javax.swing.ListModel, javax.swing.ListSelectionModel, int)" map="paintCell"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffListUI" name="javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)" map="createUI"/>
+  <class name="com.incors.plaf.kunststoff.KunststoffPasswordFieldUI" map="M"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffPasswordFieldUI" name="javax.swing.text.View create(javax.swing.text.Element)" map="create"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffPasswordFieldUI" name="java.lang.String getPropertyPrefix()" map="getPropertyPrefix"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffPasswordFieldUI" name="javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)" map="createUI"/>
+  <class name="com.incors.plaf.kunststoff.KunststoffToggleButtonUI" map="N"/>
+  <field class="com.incors.plaf.kunststoff.KunststoffToggleButtonUI" name="buttonUI" map="A"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffToggleButtonUI" name="void paint(java.awt.Graphics, javax.swing.JComponent)" map="paint"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffToggleButtonUI" name="javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)" map="createUI"/>
+  <class name="com.incors.plaf.kunststoff.ModifiedDefaultListCellRenderer" map="O"/>
+  <method class="com.incors.plaf.kunststoff.ModifiedDefaultListCellRenderer" name="java.awt.Component getListCellRendererComponent(javax.swing.JList, java.lang.Object, int, boolean, boolean)" map="getListCellRendererComponent"/>
+  <class name="com.incors.plaf.kunststoff.KunststoffTreeUI" map="P"/>
+  <field class="com.incors.plaf.kunststoff.KunststoffTreeUI" name="m_iconCollapsed" map="A"/>
+  <field class="com.incors.plaf.kunststoff.KunststoffTreeUI" name="m_iconExpanded" map="B"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffTreeUI" name="void paintExpandControl(java.awt.Graphics, java.awt.Rectangle, java.awt.Insets, java.awt.Rectangle, javax.swing.tree.TreePath, int, boolean, boolean, boolean)" map="paintExpandControl"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffTreeUI" name="javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)" map="createUI"/>
+  <class name="com.incors.plaf.kunststoff.KunststoffLookAndFeel" map="Q"/>
+  <field class="com.incors.plaf.kunststoff.KunststoffLookAndFeel" name="isInstalled" map="A"/>
+  <field class="com.incors.plaf.kunststoff.KunststoffLookAndFeel" name="themeHasBeenSet" map="B"/>
+  <field class="com.incors.plaf.kunststoff.KunststoffLookAndFeel" name="gradientTheme" map="C"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffLookAndFeel" name="void initComponentDefaults(javax.swing.UIDefaults)" map="initComponentDefaults"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffLookAndFeel" name="void initSystemColorDefaults(javax.swing.UIDefaults)" map="initSystemColorDefaults"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffLookAndFeel" name="javax.swing.plaf.ColorUIResource getComponentGradientColorReflection()" map="A"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffLookAndFeel" name="java.lang.String getID()" map="getID"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffLookAndFeel" name="void putDefault(javax.swing.UIDefaults, java.lang.String)" map="A"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffLookAndFeel" name="javax.swing.plaf.ColorUIResource getComponentGradientColorShadow()" map="B"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffLookAndFeel" name="void setCurrentTheme(javax.swing.plaf.metal.MetalTheme)" map="setCurrentTheme"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffLookAndFeel" name="int getBackgroundGradientShadow()" map="C"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffLookAndFeel" name="javax.swing.plaf.ColorUIResource getTextComponentGradientColorReflection()" map="D"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffLookAndFeel" name="void setCurrentGradientTheme(com.incors.plaf.kunststoff.GradientTheme)" map="A"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffLookAndFeel" name="void initClassDefaults(javax.swing.UIDefaults)" map="initClassDefaults"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffLookAndFeel" name="java.lang.String getDescription()" map="getDescription"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffLookAndFeel" name="java.lang.String getName()" map="getName"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffLookAndFeel" name="boolean isSupportedLookAndFeel()" map="isSupportedLookAndFeel"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffLookAndFeel" name="void createDefaultTheme()" map="createDefaultTheme"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffLookAndFeel" name="javax.swing.plaf.ColorUIResource getTextComponentGradientColorShadow()" map="E"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffLookAndFeel" name="boolean isNativeLookAndFeel()" map="isNativeLookAndFeel"/>
+  <class name="com.incors.plaf.kunststoff.KunststoffProgressBarUI" map="R"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffProgressBarUI" name="void paint(java.awt.Graphics, javax.swing.JComponent)" map="paint"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffProgressBarUI" name="javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)" map="createUI"/>
+  <class name="com.incors.plaf.kunststoff.KunststoffInternalFrameUI$PaletteListener" map="_A"/>
+  <field class="com.incors.plaf.kunststoff.KunststoffInternalFrameUI$PaletteListener" name="this$0" map="this$0"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffInternalFrameUI$PaletteListener" name="void propertyChange(java.beans.PropertyChangeEvent)" map="propertyChange"/>
+  <class name="com.incors.plaf.kunststoff.KunststoffInternalFrameUI" map="S"/>
+  <field class="com.incors.plaf.kunststoff.KunststoffInternalFrameUI" name="NORMAL_FRAME" map="A"/>
+  <field class="com.incors.plaf.kunststoff.KunststoffInternalFrameUI" name="OPTION_DIALOG" map="B"/>
+  <field class="com.incors.plaf.kunststoff.KunststoffInternalFrameUI" name="titlePane" map="C"/>
+  <field class="com.incors.plaf.kunststoff.KunststoffInternalFrameUI" name="FRAME_TYPE" map="D"/>
+  <field class="com.incors.plaf.kunststoff.KunststoffInternalFrameUI" name="PALETTE_FRAME" map="E"/>
+  <field class="com.incors.plaf.kunststoff.KunststoffInternalFrameUI" name="paletteListener" map="F"/>
+  <field class="com.incors.plaf.kunststoff.KunststoffInternalFrameUI" name="IS_PALETTE" map="IS_PALETTE"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffInternalFrameUI" name="void setFrameType(java.lang.String)" map="A"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffInternalFrameUI" name="void access$100(com.incors.plaf.kunststoff.KunststoffInternalFrameUI, java.lang.String)" map="access$100"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffInternalFrameUI" name="javax.swing.JComponent createNorthPane(javax.swing.JInternalFrame)" map="createNorthPane"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffInternalFrameUI" name="void uninstallUI(javax.swing.JComponent)" map="uninstallUI"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffInternalFrameUI" name="javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)" map="createUI"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffInternalFrameUI" name="void installUI(javax.swing.JComponent)" map="installUI"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffInternalFrameUI" name="java.lang.String access$000()" map="access$000"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffInternalFrameUI" name="void setPalette(boolean)" map="setPalette"/>
+  <class name="com.incors.plaf.kunststoff.KunststoffScrollButton" map="T"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffScrollButton" name="void paint(java.awt.Graphics)" map="paint"/>
+  <class name="com.incors.plaf.kunststoff.KunststoffMenuUI" map="U"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffMenuUI" name="void paint(java.awt.Graphics, javax.swing.JComponent)" map="paint"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffMenuUI" name="javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)" map="createUI"/>
+  <class name="com.incors.plaf.kunststoff.KunststoffTextFieldUI" map="V"/>
+  <field class="com.incors.plaf.kunststoff.KunststoffTextFieldUI" name="myComponent" map="A"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffTextFieldUI" name="void paintBackground(java.awt.Graphics)" map="paintBackground"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffTextFieldUI" name="javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)" map="createUI"/>
+  <class name="com.incors.plaf.kunststoff.KunststoffInternalFrameTitlePane" map="W"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffInternalFrameTitlePane" name="void paintComponent(java.awt.Graphics)" map="paintComponent"/>
+  <class name="com.incors.plaf.kunststoff.KunststoffMenuBarUI" map="X"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffMenuBarUI" name="void paint(java.awt.Graphics, javax.swing.JComponent)" map="paint"/>
+  <method class="com.incors.plaf.kunststoff.KunststoffMenuBarUI" name="javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)" map="createUI"/>
+  <class name="com.incors.plaf.ColorUIResource2" map="A"/>
+  <field class="com.incors.plaf.ColorUIResource2" name="myColor" map="A"/>
+  <method class="com.incors.plaf.ColorUIResource2" name="int getRGB()" map="getRGB"/>
+  <method class="com.incors.plaf.ColorUIResource2" name="java.awt.Color brighter()" map="brighter"/>
+  <method class="com.incors.plaf.ColorUIResource2" name="float[] getRGBComponents(float[])" map="getRGBComponents"/>
+  <method class="com.incors.plaf.ColorUIResource2" name="float[] getRGBColorComponents(float[])" map="getRGBColorComponents"/>
+  <method class="com.incors.plaf.ColorUIResource2" name="boolean equals(java.lang.Object)" map="equals"/>
+  <method class="com.incors.plaf.ColorUIResource2" name="java.awt.Color darker()" map="darker"/>
+  <method class="com.incors.plaf.ColorUIResource2" name="java.lang.String toString()" map="toString"/>
+  <method class="com.incors.plaf.ColorUIResource2" name="int getAlpha()" map="getAlpha"/>
+  <method class="com.incors.plaf.ColorUIResource2" name="int getBlue()" map="getBlue"/>
+  <method class="com.incors.plaf.ColorUIResource2" name="int hashCode()" map="hashCode"/>
+  <method class="com.incors.plaf.ColorUIResource2" name="int getGreen()" map="getGreen"/>
+  <method class="com.incors.plaf.ColorUIResource2" name="float[] getComponents(float[])" map="getComponents"/>
+  <method class="com.incors.plaf.ColorUIResource2" name="java.awt.PaintContext createContext(java.awt.image.ColorModel, java.awt.Rectangle, java.awt.geom.Rectangle2D, java.awt.geom.AffineTransform, java.awt.RenderingHints)" map="createContext"/>
+  <method class="com.incors.plaf.ColorUIResource2" name="int getRed()" map="getRed"/>
+  <method class="com.incors.plaf.ColorUIResource2" name="float[] getColorComponents(float[])" map="getColorComponents"/>
+  <method class="com.incors.plaf.ColorUIResource2" name="java.awt.color.ColorSpace getColorSpace()" map="getColorSpace"/>
+  <method class="com.incors.plaf.ColorUIResource2" name="float[] getColorComponents(java.awt.color.ColorSpace, float[])" map="getColorComponents"/>
+  <method class="com.incors.plaf.ColorUIResource2" name="int getTransparency()" map="getTransparency"/>
+  <method class="com.incors.plaf.ColorUIResource2" name="float[] getComponents(java.awt.color.ColorSpace, float[])" map="getComponents"/>
+  <class name="com.incors.plaf.FastGradientPaint" map="B"/>
+  <field class="com.incors.plaf.FastGradientPaint" name="endColor" map="A"/>
+  <field class="com.incors.plaf.FastGradientPaint" name="startColor" map="B"/>
+  <field class="com.incors.plaf.FastGradientPaint" name="isVertical" map="C"/>
+  <method class="com.incors.plaf.FastGradientPaint" name="java.awt.PaintContext createContext(java.awt.image.ColorModel, java.awt.Rectangle, java.awt.geom.Rectangle2D, java.awt.geom.AffineTransform, java.awt.RenderingHints)" map="createContext"/>
+  <method class="com.incors.plaf.FastGradientPaint" name="int getTransparency()" map="getTransparency"/>
+  <class name="com.incors.plaf.FastGradientPaintContext$GradientInfo" map="_A"/>
+  <field class="com.incors.plaf.FastGradientPaintContext$GradientInfo" name="this$0" map="this$0"/>
+  <field class="com.incors.plaf.FastGradientPaintContext$GradientInfo" name="model" map="A"/>
+  <field class="com.incors.plaf.FastGradientPaintContext$GradientInfo" name="parallelLength" map="B"/>
+  <field class="com.incors.plaf.FastGradientPaintContext$GradientInfo" name="endColor" map="C"/>
+  <field class="com.incors.plaf.FastGradientPaintContext$GradientInfo" name="startColor" map="D"/>
+  <field class="com.incors.plaf.FastGradientPaintContext$GradientInfo" name="isVertical" map="E"/>
+  <method class="com.incors.plaf.FastGradientPaintContext$GradientInfo" name="boolean equals(java.lang.Object)" map="equals"/>
+  <method class="com.incors.plaf.FastGradientPaintContext$GradientInfo" name="int hashCode()" map="hashCode"/>
+  <method class="com.incors.plaf.FastGradientPaintContext$GradientInfo" name="java.lang.String toString()" map="toString"/>
+  <class name="com.incors.plaf.FastGradientPaintContext$1" map="1"/>
+  <class name="com.incors.plaf.FastGradientPaintContext$Gradient" map="_B"/>
+  <field class="com.incors.plaf.FastGradientPaintContext$Gradient" name="this$0" map="this$0"/>
+  <field class="com.incors.plaf.FastGradientPaintContext$Gradient" name="perpendicularLength" map="A"/>
+  <field class="com.incors.plaf.FastGradientPaintContext$Gradient" name="raster" map="B"/>
+  <field class="com.incors.plaf.FastGradientPaintContext$Gradient" name="childRasterCache" map="C"/>
+  <field class="com.incors.plaf.FastGradientPaintContext$Gradient" name="info" map="D"/>
+  <method class="com.incors.plaf.FastGradientPaintContext$Gradient" name="void dispose()" map="A"/>
+  <method class="com.incors.plaf.FastGradientPaintContext$Gradient" name="java.awt.image.Raster access$100(com.incors.plaf.FastGradientPaintContext$Gradient, int, int, int)" map="access$100"/>
+  <method class="com.incors.plaf.FastGradientPaintContext$Gradient" name="java.awt.image.Raster getRaster(int, int, int)" map="A"/>
+  <method class="com.incors.plaf.FastGradientPaintContext$Gradient" name="void createRaster(int)" map="A"/>
+  <class name="com.incors.plaf.FastGradientPaintContext" map="C"/>
+  <field class="com.incors.plaf.FastGradientPaintContext" name="parallelDevicePos" map="A"/>
+  <field class="com.incors.plaf.FastGradientPaintContext" name="gradientCache" map="B"/>
+  <field class="com.incors.plaf.FastGradientPaintContext" name="gradient" map="C"/>
+  <field class="com.incors.plaf.FastGradientPaintContext" name="info" map="D"/>
+  <field class="com.incors.plaf.FastGradientPaintContext" name="recentInfos" map="E"/>
+  <method class="com.incors.plaf.FastGradientPaintContext" name="void dispose()" map="dispose"/>
+  <method class="com.incors.plaf.FastGradientPaintContext" name="java.awt.image.Raster getRaster(int, int, int, int)" map="getRaster"/>
+  <method class="com.incors.plaf.FastGradientPaintContext" name="java.awt.image.ColorModel getColorModel()" map="getColorModel"/>
+  <package name="driver.ted.utilities" map="A"/>
+  <package name="driver.ted.utilities.Almanac" map="A"/>
+  <class name="driver.ted.utilities.Almanac.T_ReadAlmanac" map="A"/>
+  <field class="driver.ted.utilities.Almanac.T_ReadAlmanac" name="OMEGA" map="A"/>
+  <field class="driver.ted.utilities.Almanac.T_ReadAlmanac" name="SQRTSMA" map="B"/>
+  <field class="driver.ted.utilities.Almanac.T_ReadAlmanac" name="in" map="C"/>
+  <field class="driver.ted.utilities.Almanac.T_ReadAlmanac" name="line" map="D"/>
+  <field class="driver.ted.utilities.Almanac.T_ReadAlmanac" name="PRN" map="E"/>
+  <field class="driver.ted.utilities.Almanac.T_ReadAlmanac" name="AVERAGEURA" map="F"/>
+  <field class="driver.ted.utilities.Almanac.T_ReadAlmanac" name="SVN" map="G"/>
+  <field class="driver.ted.utilities.Almanac.T_ReadAlmanac" name="INCOFFSET" map="H"/>
+  <field class="driver.ted.utilities.Almanac.T_ReadAlmanac" name="HEALTH" map="I"/>
+  <field class="driver.ted.utilities.Almanac.T_ReadAlmanac" name="st" map="J"/>
+  <field class="driver.ted.utilities.Almanac.T_ReadAlmanac" name="OMEGA0" map="K"/>
+  <field class="driver.ted.utilities.Almanac.T_ReadAlmanac" name="GPSWeek" map="L"/>
+  <field class="driver.ted.utilities.Almanac.T_ReadAlmanac" name="AF1" map="M"/>
+  <field class="driver.ted.utilities.Almanac.T_ReadAlmanac" name="GPSTOA" map="N"/>
+  <field class="driver.ted.utilities.Almanac.T_ReadAlmanac" name="AF0" map="O"/>
+  <field class="driver.ted.utilities.Almanac.T_ReadAlmanac" name="almanacName" map="P"/>
+  <field class="driver.ted.utilities.Almanac.T_ReadAlmanac" name="almanacReadStatus" map="Q"/>
+  <field class="driver.ted.utilities.Almanac.T_ReadAlmanac" name="file" map="R"/>
+  <field class="driver.ted.utilities.Almanac.T_ReadAlmanac" name="SATCONFIG" map="S"/>
+  <field class="driver.ted.utilities.Almanac.T_ReadAlmanac" name="ECCENTRICITY" map="T"/>
+  <field class="driver.ted.utilities.Almanac.T_ReadAlmanac" name="MEANANOMALY" map="U"/>
+  <field class="driver.ted.utilities.Almanac.T_ReadAlmanac" name="numberOfPRNs" map="V"/>
+  <field class="driver.ted.utilities.Almanac.T_ReadAlmanac" name="OMEGADOT" map="W"/>
+  <method class="driver.ted.utilities.Almanac.T_ReadAlmanac" name="double getInclinationOffset(int)" map="A"/>
+  <method class="driver.ted.utilities.Almanac.T_ReadAlmanac" name="int getSVN(int)" map="B"/>
+  <method class="driver.ted.utilities.Almanac.T_ReadAlmanac" name="void readHeader()" map="A"/>
+  <method class="driver.ted.utilities.Almanac.T_ReadAlmanac" name="double getOmega(int)" map="C"/>
+  <method class="driver.ted.utilities.Almanac.T_ReadAlmanac" name="double getSqrtSemiMajorAxis(int)" map="D"/>
+  <method class="driver.ted.utilities.Almanac.T_ReadAlmanac" name="int getGPSWeek()" map="B"/>
+  <method class="driver.ted.utilities.Almanac.T_ReadAlmanac" name="java.lang.String getAlmanacName()" map="C"/>
+  <method class="driver.ted.utilities.Almanac.T_ReadAlmanac" name="int getNumberOfSVs()" map="D"/>
+  <method class="driver.ted.utilities.Almanac.T_ReadAlmanac" name="int getURA(int)" map="E"/>
+  <method class="driver.ted.utilities.Almanac.T_ReadAlmanac" name="int getHealth(int)" map="F"/>
+  <method class="driver.ted.utilities.Almanac.T_ReadAlmanac" name="void readPRNs()" map="E"/>
+  <method class="driver.ted.utilities.Almanac.T_ReadAlmanac" name="boolean getAlmanacReadStatus()" map="F"/>
+  <method class="driver.ted.utilities.Almanac.T_ReadAlmanac" name="int getSatConfig(int)" map="G"/>
+  <method class="driver.ted.utilities.Almanac.T_ReadAlmanac" name="double getMeanAnomaly(int)" map="H"/>
+  <method class="driver.ted.utilities.Almanac.T_ReadAlmanac" name="double getOmegaZero(int)" map="I"/>
+  <method class="driver.ted.utilities.Almanac.T_ReadAlmanac" name="double getAFZero(int)" map="J"/>
+  <method class="driver.ted.utilities.Almanac.T_ReadAlmanac" name="double getOmegaDot(int)" map="K"/>
+  <method class="driver.ted.utilities.Almanac.T_ReadAlmanac" name="double getAFOne(int)" map="L"/>
+  <method class="driver.ted.utilities.Almanac.T_ReadAlmanac" name="double getEccentricity(int)" map="M"/>
+  <method class="driver.ted.utilities.Almanac.T_ReadAlmanac" name="long getGPSTOA()" map="G"/>
+  <class name="driver.ted.utilities.T_Time" map="A"/>
+  <field class="driver.ted.utilities.T_Time" name="hour" map="A"/>
+  <field class="driver.ted.utilities.T_Time" name="second" map="B"/>
+  <field class="driver.ted.utilities.T_Time" name="minute" map="C"/>
+  <method class="driver.ted.utilities.T_Time" name="void setMinute(int)" map="A"/>
+  <method class="driver.ted.utilities.T_Time" name="void setHour(int)" map="B"/>
+  <method class="driver.ted.utilities.T_Time" name="int getMinute()" map="A"/>
+  <method class="driver.ted.utilities.T_Time" name="java.lang.String toAMPMString()" map="B"/>
+  <method class="driver.ted.utilities.T_Time" name="void advanceTime(int, int, int)" map="A"/>
+  <method class="driver.ted.utilities.T_Time" name="void normalize()" map="C"/>
+  <method class="driver.ted.utilities.T_Time" name="int getSecond()" map="D"/>
+  <method class="driver.ted.utilities.T_Time" name="int getHour()" map="E"/>
+  <method class="driver.ted.utilities.T_Time" name="void setTime(int, int, int)" map="B"/>
+  <method class="driver.ted.utilities.T_Time" name="void setSecond(int)" map="C"/>
+  <method class="driver.ted.utilities.T_Time" name="java.lang.String toString()" map="toString"/>
+  <class name="driver.ted.utilities.T_ReadSP3" map="B"/>
+  <field class="driver.ted.utilities.T_ReadSP3" name="timeData" map="A"/>
+  <field class="driver.ted.utilities.T_ReadSP3" name="Z" map="B"/>
+  <field class="driver.ted.utilities.T_ReadSP3" name="Y" map="C"/>
+  <field class="driver.ted.utilities.T_ReadSP3" name="ZDOT" map="D"/>
+  <field class="driver.ted.utilities.T_ReadSP3" name="X" map="E"/>
+  <field class="driver.ted.utilities.T_ReadSP3" name="NUMBEROFDATAELEMENTS" map="F"/>
+  <field class="driver.ted.utilities.T_ReadSP3" name="CLOCKCORR" map="G"/>
+  <field class="driver.ted.utilities.T_ReadSP3" name="SVID" map="H"/>
+  <field class="driver.ted.utilities.T_ReadSP3" name="CLOCKCORRDOT" map="I"/>
+  <field class="driver.ted.utilities.T_ReadSP3" name="in" map="J"/>
+  <field class="driver.ted.utilities.T_ReadSP3" name="times" map="K"/>
+  <field class="driver.ted.utilities.T_ReadSP3" name="line" map="L"/>
+  <field class="driver.ted.utilities.T_ReadSP3" name="NEWEPOCH" map="M"/>
+  <field class="driver.ted.utilities.T_ReadSP3" name="epochLength" map="N"/>
+  <field class="driver.ted.utilities.T_ReadSP3" name="EOF" map="O"/>
+  <field class="driver.ted.utilities.T_ReadSP3" name="numberOfSats" map="P"/>
+  <field class="driver.ted.utilities.T_ReadSP3" name="Inited" map="Q"/>
+  <field class="driver.ted.utilities.T_ReadSP3" name="satData" map="R"/>
+  <field class="driver.ted.utilities.T_ReadSP3" name="JD" map="S"/>
+  <field class="driver.ted.utilities.T_ReadSP3" name="sats" map="T"/>
+  <field class="driver.ted.utilities.T_ReadSP3" name="XDOT" map="U"/>
+  <field class="driver.ted.utilities.T_ReadSP3" name="JDATE" map="V"/>
+  <field class="driver.ted.utilities.T_ReadSP3" name="file" map="W"/>
+  <field class="driver.ted.utilities.T_ReadSP3" name="VELOCITYRECORD" map="X"/>
+  <field class="driver.ted.utilities.T_ReadSP3" name="POSITIONRECORD" map="Y"/>
+  <field class="driver.ted.utilities.T_ReadSP3" name="numEpochs" map="Z"/>
+  <field class="driver.ted.utilities.T_ReadSP3" name="YDOT" map="_"/>
+  <method class="driver.ted.utilities.T_ReadSP3" name="int[] getSVIDs()" map="A"/>
+  <method class="driver.ted.utilities.T_ReadSP3" name="void initFile(java.lang.String)" map="A"/>
+  <method class="driver.ted.utilities.T_ReadSP3" name="double[][] getDataForPRN(int)" map="A"/>
+  <method class="driver.ted.utilities.T_ReadSP3" name="void main(java.lang.String[])" map="A"/>
+  <method class="driver.ted.utilities.T_ReadSP3" name="double[] getData(int, double)" map="A"/>
+  <method class="driver.ted.utilities.T_ReadSP3" name="double convertTimeKey(double)" map="A"/>
+  <method class="driver.ted.utilities.T_ReadSP3" name="double[][] getDataForTime(double)" map="B"/>
+  <method class="driver.ted.utilities.T_ReadSP3" name="void setFile(java.lang.String)" map="B"/>
+  <method class="driver.ted.utilities.T_ReadSP3" name="double[] getTimes()" map="B"/>
+  <class name="driver.ted.utilities.T_Date" map="C"/>
+  <field class="driver.ted.utilities.T_Date" name="day" map="A"/>
+  <field class="driver.ted.utilities.T_Date" name="year" map="B"/>
+  <field class="driver.ted.utilities.T_Date" name="month" map="C"/>
+  <method class="driver.ted.utilities.T_Date" name="int checkYear(int)" map="A"/>
+  <method class="driver.ted.utilities.T_Date" name="void advanceDate(int, int, int)" map="A"/>
+  <method class="driver.ted.utilities.T_Date" name="void setMonth(int)" map="B"/>
+  <method class="driver.ted.utilities.T_Date" name="void setDate(int, int, int)" map="B"/>
+  <method class="driver.ted.utilities.T_Date" name="int getYear()" map="A"/>
+  <method class="driver.ted.utilities.T_Date" name="int getDay()" map="B"/>
+  <method class="driver.ted.utilities.T_Date" name="int checkMonth(int)" map="C"/>
+  <method class="driver.ted.utilities.T_Date" name="int checkDay(int)" map="D"/>
+  <method class="driver.ted.utilities.T_Date" name="void setYear(int)" map="E"/>
+  <method class="driver.ted.utilities.T_Date" name="void setDay(int)" map="F"/>
+  <method class="driver.ted.utilities.T_Date" name="java.lang.String toString()" map="toString"/>
+  <method class="driver.ted.utilities.T_Date" name="int getMonth()" map="C"/>
+  <method class="driver.ted.utilities.T_Date" name="java.lang.String toMediumString()" map="D"/>
+  <class name="driver.ted.utilities.T_GetFilename" map="D"/>
+  <field class="driver.ted.utilities.T_GetFilename" name="chooser" map="A"/>
+  <method class="driver.ted.utilities.T_GetFilename" name="void main(java.lang.String[])" map="A"/>
+  <method class="driver.ted.utilities.T_GetFilename" name="java.lang.String getFilename()" map="A"/>
+  <class name="driver.ted.utilities.T_Interpolate" map="E"/>
+  <field class="driver.ted.utilities.T_Interpolate" name="Xmid" map="A"/>
+  <field class="driver.ted.utilities.T_Interpolate" name="maxDiff" map="B"/>
+  <field class="driver.ted.utilities.T_Interpolate" name="nm" map="C"/>
+  <field class="driver.ted.utilities.T_Interpolate" name="Ymid" map="D"/>
+  <field class="driver.ted.utilities.T_Interpolate" name="delta_nzero" map="E"/>
+  <field class="driver.ted.utilities.T_Interpolate" name="length" map="F"/>
+  <field class="driver.ted.utilities.T_Interpolate" name="INTERPOLATION_DEFINED" map="G"/>
+  <field class="driver.ted.utilities.T_Interpolate" name="nzero" map="H"/>
+  <field class="driver.ted.utilities.T_Interpolate" name="K" map="I"/>
+  <field class="driver.ted.utilities.T_Interpolate" name="J" map="J"/>
+  <field class="driver.ted.utilities.T_Interpolate" name="y" map="K"/>
+  <field class="driver.ted.utilities.T_Interpolate" name="H" map="L"/>
+  <field class="driver.ted.utilities.T_Interpolate" name="G" map="M"/>
+  <field class="driver.ted.utilities.T_Interpolate" name="F" map="N"/>
+  <field class="driver.ted.utilities.T_Interpolate" name="E" map="O"/>
+  <field class="driver.ted.utilities.T_Interpolate" name="D" map="P"/>
+  <field class="driver.ted.utilities.T_Interpolate" name="C" map="Q"/>
+  <field class="driver.ted.utilities.T_Interpolate" name="B" map="R"/>
+  <field class="driver.ted.utilities.T_Interpolate" name="A" map="S"/>
+  <field class="driver.ted.utilities.T_Interpolate" name="n" map="T"/>
+  <field class="driver.ted.utilities.T_Interpolate" name="interval" map="U"/>
+  <field class="driver.ted.utilities.T_Interpolate" name="ym" map="V"/>
+  <method class="driver.ted.utilities.T_Interpolate" name="double getFirstDiffA()" map="A"/>
+  <method class="driver.ted.utilities.T_Interpolate" name="double get_n()" map="B"/>
+  <method class="driver.ted.utilities.T_Interpolate" name="void defineInterpolation(driver.ted.utilities.T_Vector, driver.ted.utilities.T_Vector)" map="A"/>
+  <method class="driver.ted.utilities.T_Interpolate" name="double get_nmax()" map="C"/>
+  <method class="driver.ted.utilities.T_Interpolate" name="double getSecondDiffC()" map="D"/>
+  <method class="driver.ted.utilities.T_Interpolate" name="double getYmax()" map="E"/>
+  <method class="driver.ted.utilities.T_Interpolate" name="void main(java.lang.String[])" map="A"/>
+  <method class="driver.ted.utilities.T_Interpolate" name="double interpolate(double, double)" map="A"/>
+  <method class="driver.ted.utilities.T_Interpolate" name="double getFirstDiffB()" map="F"/>
+  <method class="driver.ted.utilities.T_Interpolate" name="java.lang.String toString()" map="toString"/>
+  <method class="driver.ted.utilities.T_Interpolate" name="double getMaxPercentDiff()" map="G"/>
+  <method class="driver.ted.utilities.T_Interpolate" name="double interpolate(double)" map="A"/>
+  <class name="driver.ted.utilities.T_ColorChooser$9" map="9"/>
+  <field class="driver.ted.utilities.T_ColorChooser$9" name="this$0" map="A"/>
+  <method class="driver.ted.utilities.T_ColorChooser$9" name="void actionPerformed(java.awt.event.ActionEvent)" map="actionPerformed"/>
+  <class name="driver.ted.utilities.T_ColorChooser$8" map="8"/>
+  <field class="driver.ted.utilities.T_ColorChooser$8" name="this$0" map="A"/>
+  <method class="driver.ted.utilities.T_ColorChooser$8" name="void focusGained(java.awt.event.FocusEvent)" map="focusGained"/>
+  <class name="driver.ted.utilities.T_ColorChooser$7" map="7"/>
+  <field class="driver.ted.utilities.T_ColorChooser$7" name="this$0" map="A"/>
+  <method class="driver.ted.utilities.T_ColorChooser$7" name="void mouseClicked(java.awt.event.MouseEvent)" map="mouseClicked"/>
+  <class name="driver.ted.utilities.T_ColorChooser$6" map="6"/>
+  <field class="driver.ted.utilities.T_ColorChooser$6" name="this$0" map="A"/>
+  <method class="driver.ted.utilities.T_ColorChooser$6" name="void actionPerformed(java.awt.event.ActionEvent)" map="actionPerformed"/>
+  <class name="driver.ted.utilities.T_ColorChooser$5" map="5"/>
+  <field class="driver.ted.utilities.T_ColorChooser$5" name="this$0" map="A"/>
+  <method class="driver.ted.utilities.T_ColorChooser$5" name="void actionPerformed(java.awt.event.ActionEvent)" map="actionPerformed"/>
+  <class name="driver.ted.utilities.T_ColorChooser$4" map="4"/>
+  <field class="driver.ted.utilities.T_ColorChooser$4" name="this$0" map="A"/>
+  <method class="driver.ted.utilities.T_ColorChooser$4" name="void stateChanged(javax.swing.event.ChangeEvent)" map="stateChanged"/>
+  <class name="driver.ted.utilities.T_ColorChooser$3" map="3"/>
+  <field class="driver.ted.utilities.T_ColorChooser$3" name="this$0" map="A"/>
+  <method class="driver.ted.utilities.T_ColorChooser$3" name="void stateChanged(javax.swing.event.ChangeEvent)" map="stateChanged"/>
+  <class name="driver.ted.utilities.T_ColorChooser$2" map="2"/>
+  <field class="driver.ted.utilities.T_ColorChooser$2" name="this$0" map="A"/>
+  <method class="driver.ted.utilities.T_ColorChooser$2" name="void stateChanged(javax.swing.event.ChangeEvent)" map="stateChanged"/>
+  <class name="driver.ted.utilities.T_ColorChooser$1" map="1"/>
+  <field class="driver.ted.utilities.T_ColorChooser$1" name="this$0" map="A"/>
+  <method class="driver.ted.utilities.T_ColorChooser$1" name="void actionPerformed(java.awt.event.ActionEvent)" map="actionPerformed"/>
+  <class name="driver.ted.utilities.T_ColorChooser" map="F"/>
+  <field class="driver.ted.utilities.T_ColorChooser" name="blueLabel" map="A"/>
+  <field class="driver.ted.utilities.T_ColorChooser" name="blue" map="B"/>
+  <field class="driver.ted.utilities.T_ColorChooser" name="buttonGroup1" map="C"/>
+  <field class="driver.ted.utilities.T_ColorChooser" name="bluePanel" map="D"/>
+  <field class="driver.ted.utilities.T_ColorChooser" name="DECIMAL" map="E"/>
+  <field class="driver.ted.utilities.T_ColorChooser" name="greenField" map="F"/>
+  <field class="driver.ted.utilities.T_ColorChooser" name="colorValueLabel" map="G"/>
+  <field class="driver.ted.utilities.T_ColorChooser" name="redLabel" map="H"/>
+  <field class="driver.ted.utilities.T_ColorChooser" name="decimalRadio" map="I"/>
+  <field class="driver.ted.utilities.T_ColorChooser" name="red" map="J"/>
+  <field class="driver.ted.utilities.T_ColorChooser" name="colorValuePanel" map="K"/>
+  <field class="driver.ted.utilities.T_ColorChooser" name="redPanel" map="L"/>
+  <field class="driver.ted.utilities.T_ColorChooser" name="DefaultColor" map="M"/>
+  <field class="driver.ted.utilities.T_ColorChooser" name="green" map="N"/>
+  <field class="driver.ted.utilities.T_ColorChooser" name="currentColor" map="O"/>
+  <field class="driver.ted.utilities.T_ColorChooser" name="actionListeners" map="P"/>
+  <field class="driver.ted.utilities.T_ColorChooser" name="greenLabel" map="Q"/>
+  <field class="driver.ted.utilities.T_ColorChooser" name="greenPanel" map="R"/>
+  <field class="driver.ted.utilities.T_ColorChooser" name="blueField" map="S"/>
+  <field class="driver.ted.utilities.T_ColorChooser" name="gridLayout1" map="T"/>
+  <field class="driver.ted.utilities.T_ColorChooser" name="setButton" map="U"/>
+  <field class="driver.ted.utilities.T_ColorChooser" name="jLabel1" map="V"/>
+  <field class="driver.ted.utilities.T_ColorChooser" name="setPanel" map="W"/>
+  <field class="driver.ted.utilities.T_ColorChooser" name="hexRadio" map="X"/>
+  <field class="driver.ted.utilities.T_ColorChooser" name="labelColor" map="Y"/>
+  <field class="driver.ted.utilities.T_ColorChooser" name="colorValueField" map="Z"/>
+  <field class="driver.ted.utilities.T_ColorChooser" name="redField" map="_"/>
+  <method class="driver.ted.utilities.T_ColorChooser" name="void colorValueField_mouseClicked(java.awt.event.MouseEvent)" map="A"/>
+  <method class="driver.ted.utilities.T_ColorChooser" name="void colorValueField_focusGained(java.awt.event.FocusEvent)" map="A"/>
+  <method class="driver.ted.utilities.T_ColorChooser" name="void green_stateChanged(javax.swing.event.ChangeEvent)" map="A"/>
+  <method class="driver.ted.utilities.T_ColorChooser" name="void addActionListener(java.awt.event.ActionListener)" map="A"/>
+  <method class="driver.ted.utilities.T_ColorChooser" name="void fireActionPerformed(java.awt.event.ActionEvent)" map="A"/>
+  <method class="driver.ted.utilities.T_ColorChooser" name="void hexRadio_actionPerformed(java.awt.event.ActionEvent)" map="B"/>
+  <method class="driver.ted.utilities.T_ColorChooser" name="void colorValueField_actionPerformed(java.awt.event.ActionEvent)" map="C"/>
+  <method class="driver.ted.utilities.T_ColorChooser" name="void setButton_actionPerformed(java.awt.event.ActionEvent)" map="D"/>
+  <method class="driver.ted.utilities.T_ColorChooser" name="void removeActionListener(java.awt.event.ActionListener)" map="B"/>
+  <method class="driver.ted.utilities.T_ColorChooser" name="void decimalRadio_actionPerformed(java.awt.event.ActionEvent)" map="E"/>
+  <method class="driver.ted.utilities.T_ColorChooser" name="void jbInit()" map="A"/>
+  <method class="driver.ted.utilities.T_ColorChooser" name="void blue_stateChanged(javax.swing.event.ChangeEvent)" map="B"/>
+  <method class="driver.ted.utilities.T_ColorChooser" name="java.awt.Color getCurrentColor()" map="B"/>
+  <method class="driver.ted.utilities.T_ColorChooser" name="void red_stateChanged(javax.swing.event.ChangeEvent)" map="C"/>
+  <method class="driver.ted.utilities.T_ColorChooser" name="int getColorValue(java.awt.Color)" map="A"/>
+  <class name="driver.ted.utilities.T_Utilities" map="G"/>
+  <field class="driver.ted.utilities.T_Utilities" name="EarthEquatorialRadius" map="A"/>
+  <field class="driver.ted.utilities.T_Utilities" name="EarthEccentricity" map="B"/>
+  <field class="driver.ted.utilities.T_Utilities" name="L2" map="C"/>
+  <field class="driver.ted.utilities.T_Utilities" name="L1" map="D"/>
+  <field class="driver.ted.utilities.T_Utilities" name="AsToRad" map="E"/>
+  <field class="driver.ted.utilities.T_Utilities" name="DtR" map="F"/>
+  <field class="driver.ted.utilities.T_Utilities" name="PI" map="G"/>
+  <field class="driver.ted.utilities.T_Utilities" name="C" map="H"/>
+  <method class="driver.ted.utilities.T_Utilities" name="java.lang.String decimalToRAHMS(double, int)" map="A"/>
+  <method class="driver.ted.utilities.T_Utilities" name="java.lang.String decimalToTimeHMS(double, int)" map="B"/>
+  <method class="driver.ted.utilities.T_Utilities" name="java.lang.String decimalToDMSDIRH(double, int)" map="C"/>
+  <method class="driver.ted.utilities.T_Utilities" name="java.lang.String getPrecisionString(int, int)" map="A"/>
+  <method class="driver.ted.utilities.T_Utilities" name="double getDecimalOfDouble(double)" map="A"/>
+  <method class="driver.ted.utilities.T_Utilities" name="double normalize(double, double, double, int)" map="A"/>
+  <method class="driver.ted.utilities.T_Utilities" name="double normalize(double, double, double)" map="A"/>
+  <method class="driver.ted.utilities.T_Utilities" name="int getIntOfDouble(double)" map="B"/>
+  <method class="driver.ted.utilities.T_Utilities" name="java.lang.String decimalToDMS(double, int)" map="D"/>
+  <method class="driver.ted.utilities.T_Utilities" name="java.lang.String decimalToDMSDIRV(double, int)" map="E"/>
+  <class name="driver.ted.utilities.T_Coordinates" map="H"/>
+  <field class="driver.ted.utilities.T_Coordinates" name="flattening" map="A"/>
+  <field class="driver.ted.utilities.T_Coordinates" name="R_Earth" map="B"/>
+  <method class="driver.ted.utilities.T_Coordinates" name="void main(java.lang.String[])" map="A"/>
+  <method class="driver.ted.utilities.T_Coordinates" name="double[] ECEF_To_Geo(double[])" map="A"/>
+  <method class="driver.ted.utilities.T_Coordinates" name="double[] EquatorialToLocalHorizontal(double, double, double, double, driver.ted.utilities.T_JulianDate)" map="A"/>
+  <class name="driver.ted.utilities.T_Converter" map="I"/>
+  <field class="driver.ted.utilities.T_Converter" name="INTEGER" map="A"/>
+  <field class="driver.ted.utilities.T_Converter" name="OCTAL" map="B"/>
+  <field class="driver.ted.utilities.T_Converter" name="HEX" map="C"/>
+  <field class="driver.ted.utilities.T_Converter" name="BINARY" map="D"/>
+  <method class="driver.ted.utilities.T_Converter" name="void main(java.lang.String[])" map="A"/>
+  <method class="driver.ted.utilities.T_Converter" name="java.lang.String getHex(java.lang.String, int)" map="A"/>
+  <method class="driver.ted.utilities.T_Converter" name="java.lang.String getInt(java.lang.String, int)" map="B"/>
+  <method class="driver.ted.utilities.T_Converter" name="java.lang.String getNumberString(java.lang.String, int, int)" map="A"/>
+  <method class="driver.ted.utilities.T_Converter" name="java.lang.String getBinary(java.lang.String, int, int)" map="B"/>
+  <method class="driver.ted.utilities.T_Converter" name="java.lang.String getOctal(java.lang.String, int)" map="C"/>
+  <class name="driver.ted.utilities.T_GPSTime" map="J"/>
+  <field class="driver.ted.utilities.T_GPSTime" name="TimeOfWeek" map="A"/>
+  <field class="driver.ted.utilities.T_GPSTime" name="NUMBER_OF_GPS_EPOCHS" map="B"/>
+  <field class="driver.ted.utilities.T_GPSTime" name="baseDate" map="C"/>
+  <field class="driver.ted.utilities.T_GPSTime" name="GPSWeek" map="D"/>
+  <field class="driver.ted.utilities.T_GPSTime" name="JD" map="E"/>
+  <field class="driver.ted.utilities.T_GPSTime" name="baseEpoch" map="F"/>
+  <field class="driver.ted.utilities.T_GPSTime" name="gpsEpochs" map="G"/>
+  <field class="driver.ted.utilities.T_GPSTime" name="KPoints" map="H"/>
+  <field class="driver.ted.utilities.T_GPSTime" name="ZCounts" map="I"/>
+  <method class="driver.ted.utilities.T_GPSTime" name="void setGPSTime(driver.ted.utilities.T_JulianDate)" map="A"/>
+  <method class="driver.ted.utilities.T_GPSTime" name="int getTimeOfWeek(driver.ted.utilities.T_JulianDate)" map="B"/>
+  <method class="driver.ted.utilities.T_GPSTime" name="void calculateJD()" map="A"/>
+  <method class="driver.ted.utilities.T_GPSTime" name="void calculateKPointsAndZCounts()" map="B"/>
+  <method class="driver.ted.utilities.T_GPSTime" name="void initEpochs()" map="C"/>
+  <method class="driver.ted.utilities.T_GPSTime" name="int getGPSWeek()" map="D"/>
+  <method class="driver.ted.utilities.T_GPSTime" name="void advance(int, int, int, int, int, int)" map="A"/>
+  <method class="driver.ted.utilities.T_GPSTime" name="double getKpoints()" map="E"/>
+  <method class="driver.ted.utilities.T_GPSTime" name="long getZCounts()" map="F"/>
+  <method class="driver.ted.utilities.T_GPSTime" name="void calculateWeekAndTimeOfWeek()" map="G"/>
+  <method class="driver.ted.utilities.T_GPSTime" name="void setGPSEpoch(int)" map="A"/>
+  <method class="driver.ted.utilities.T_GPSTime" name="double getGPSTime()" map="H"/>
+  <method class="driver.ted.utilities.T_GPSTime" name="java.lang.String getGPSEpoch()" map="I"/>
+  <method class="driver.ted.utilities.T_GPSTime" name="int getTimeOfWeek()" map="J"/>
+  <method class="driver.ted.utilities.T_GPSTime" name="void main(java.lang.String[])" map="A"/>
+  <method class="driver.ted.utilities.T_GPSTime" name="int getGPSWeek(driver.ted.utilities.T_JulianDate)" map="C"/>
+  <method class="driver.ted.utilities.T_GPSTime" name="void calculateClosestEpochFromJD()" map="K"/>
+  <method class="driver.ted.utilities.T_GPSTime" name="int getGPSEpochIndex()" map="L"/>
+  <class name="driver.ted.utilities.T_Vector" map="K"/>
+  <field class="driver.ted.utilities.T_Vector" name="vector_precision" map="A"/>
+  <field class="driver.ted.utilities.T_Vector" name="vector" map="B"/>
+  <field class="driver.ted.utilities.T_Vector" name="vector_size" map="C"/>
+  <method class="driver.ted.utilities.T_Vector" name="java.lang.String getPrecisionString()" map="A"/>
+  <method class="driver.ted.utilities.T_Vector" name="double magnitude()" map="B"/>
+  <method class="driver.ted.utilities.T_Vector" name="void main(java.lang.String[])" map="A"/>
+  <method class="driver.ted.utilities.T_Vector" name="driver.ted.utilities.T_Vector plus(driver.ted.utilities.T_Vector)" map="A"/>
+  <method class="driver.ted.utilities.T_Vector" name="int getSize()" map="C"/>
+  <method class="driver.ted.utilities.T_Vector" name="driver.ted.utilities.T_Vector cross(driver.ted.utilities.T_Vector)" map="B"/>
+  <method class="driver.ted.utilities.T_Vector" name="java.lang.String toString()" map="toString"/>
+  <method class="driver.ted.utilities.T_Vector" name="double dot(driver.ted.utilities.T_Vector)" map="C"/>
+  <method class="driver.ted.utilities.T_Vector" name="driver.ted.utilities.T_Vector unit()" map="D"/>
+  <method class="driver.ted.utilities.T_Vector" name="int getPrecision()" map="E"/>
+  <method class="driver.ted.utilities.T_Vector" name="double getElement(int)" map="A"/>
+  <method class="driver.ted.utilities.T_Vector" name="void setElement(int, double)" map="A"/>
+  <class name="driver.ted.utilities.T_JulianDate" map="L"/>
+  <field class="driver.ted.utilities.T_JulianDate" name="JD" map="A"/>
+  <field class="driver.ted.utilities.T_JulianDate" name="dayOfWeek" map="B"/>
+  <field class="driver.ted.utilities.T_JulianDate" name="gregorian" map="C"/>
+  <field class="driver.ted.utilities.T_JulianDate" name="date" map="D"/>
+  <field class="driver.ted.utilities.T_JulianDate" name="dayOfYear" map="E"/>
+  <field class="driver.ted.utilities.T_JulianDate" name="time" map="F"/>
+  <field class="driver.ted.utilities.T_JulianDate" name="fractionOfDay" map="G"/>
+  <field class="driver.ted.utilities.T_JulianDate" name="leapYear" map="H"/>
+  <method class="driver.ted.utilities.T_JulianDate" name="void CalculateGregorian()" map="A"/>
+  <method class="driver.ted.utilities.T_JulianDate" name="void FracToTime()" map="B"/>
+  <method class="driver.ted.utilities.T_JulianDate" name="java.lang.String toMediumString()" map="C"/>
+  <method class="driver.ted.utilities.T_JulianDate" name="void JulianToCommon()" map="D"/>
+  <method class="driver.ted.utilities.T_JulianDate" name="java.lang.String toSTKUTCGString()" map="E"/>
+  <method class="driver.ted.utilities.T_JulianDate" name="boolean getGregorian()" map="F"/>
+  <method class="driver.ted.utilities.T_JulianDate" name="void CommonToJulian()" map="G"/>
+  <method class="driver.ted.utilities.T_JulianDate" name="void setJulianDate(driver.ted.utilities.T_Date, driver.ted.utilities.T_Time)" map="A"/>
+  <method class="driver.ted.utilities.T_JulianDate" name="void setTime(int, int, int)" map="A"/>
+  <method class="driver.ted.utilities.T_JulianDate" name="java.lang.String toString()" map="toString"/>
+  <method class="driver.ted.utilities.T_JulianDate" name="void TimeToFrac()" map="H"/>
+  <method class="driver.ted.utilities.T_JulianDate" name="void advance(int, int, int, int, int, int)" map="A"/>
+  <method class="driver.ted.utilities.T_JulianDate" name="double getModifiedJulianDate()" map="I"/>
+  <method class="driver.ted.utilities.T_JulianDate" name="void setJulianDate()" map="J"/>
+  <method class="driver.ted.utilities.T_JulianDate" name="void CalculateLeapYear()" map="K"/>
+  <method class="driver.ted.utilities.T_JulianDate" name="double getDayOfYearAndTime()" map="L"/>
+  <method class="driver.ted.utilities.T_JulianDate" name="void setDayOfYear(int)" map="A"/>
+  <method class="driver.ted.utilities.T_JulianDate" name="driver.ted.utilities.T_Date getDate()" map="M"/>
+  <method class="driver.ted.utilities.T_JulianDate" name="double getJulianDate()" map="N"/>
+  <method class="driver.ted.utilities.T_JulianDate" name="void CalculateDayOfYear()" map="O"/>
+  <method class="driver.ted.utilities.T_JulianDate" name="int getDayOfYear()" map="P"/>
+  <method class="driver.ted.utilities.T_JulianDate" name="void CalculateDayOfWeek()" map="Q"/>
+  <method class="driver.ted.utilities.T_JulianDate" name="int getIntDayOfWeek()" map="R"/>
+  <method class="driver.ted.utilities.T_JulianDate" name="void setJulianDate(double)" map="A"/>
+  <method class="driver.ted.utilities.T_JulianDate" name="void setJulianDate(int, int, int, int, int, int)" map="B"/>
+  <method class="driver.ted.utilities.T_JulianDate" name="java.lang.String getDayOfWeek()" map="S"/>
+  <method class="driver.ted.utilities.T_JulianDate" name="boolean getLeapYear()" map="T"/>
+  <method class="driver.ted.utilities.T_JulianDate" name="driver.ted.utilities.T_Time getTime()" map="U"/>
+  <method class="driver.ted.utilities.T_JulianDate" name="void setDate(int, int, int)" map="B"/>
+  <method class="driver.ted.utilities.T_JulianDate" name="void CalculateDateFromDayOfYear()" map="V"/>
+  <class name="driver.ted.utilities.T_Site" map="M"/>
+  <field class="driver.ted.utilities.T_Site" name="height" map="A"/>
+  <field class="driver.ted.utilities.T_Site" name="ITERATION_TOLERANCE" map="B"/>
+  <field class="driver.ted.utilities.T_Site" name="longitude" map="C"/>
+  <field class="driver.ted.utilities.T_Site" name="Z" map="D"/>
+  <field class="driver.ted.utilities.T_Site" name="Y" map="E"/>
+  <field class="driver.ted.utilities.T_Site" name="latitude" map="F"/>
+  <field class="driver.ted.utilities.T_Site" name="X" map="G"/>
+  <method class="driver.ted.utilities.T_Site" name="double getLongitude()" map="A"/>
+  <method class="driver.ted.utilities.T_Site" name="double getX()" map="B"/>
+  <method class="driver.ted.utilities.T_Site" name="double getHeight()" map="C"/>
+  <method class="driver.ted.utilities.T_Site" name="void setX(double)" map="A"/>
+  <method class="driver.ted.utilities.T_Site" name="double getY()" map="D"/>
+  <method class="driver.ted.utilities.T_Site" name="java.lang.String toString()" map="toString"/>
+  <method class="driver.ted.utilities.T_Site" name="double getZ()" map="E"/>
+  <method class="driver.ted.utilities.T_Site" name="void setLatLonHeight(double, double, double)" map="A"/>
+  <method class="driver.ted.utilities.T_Site" name="void setZ(double)" map="B"/>
+  <method class="driver.ted.utilities.T_Site" name="void setLatitude(double)" map="C"/>
+  <method class="driver.ted.utilities.T_Site" name="void setXYZ(double, double, double)" map="B"/>
+  <method class="driver.ted.utilities.T_Site" name="void convertLatLonHeightToXYZ()" map="F"/>
+  <method class="driver.ted.utilities.T_Site" name="double getLatitude()" map="G"/>
+  <method class="driver.ted.utilities.T_Site" name="void convertXYZToLatLonHeight()" map="H"/>
+  <method class="driver.ted.utilities.T_Site" name="void setLongitude(double)" map="D"/>
+  <method class="driver.ted.utilities.T_Site" name="void main(java.lang.String[])" map="A"/>
+  <method class="driver.ted.utilities.T_Site" name="void setY(double)" map="E"/>
+  <method class="driver.ted.utilities.T_Site" name="void setHeight(double)" map="F"/>
+  <class name="driver.ted.utilities.T_EarthAtmosphere" map="N"/>
+  <package name="driver.ted.stats" map="B"/>
+  <class name="driver.ted.stats.T_Stats" map="A"/>
+  <package name="driver.ted.astro" map="C"/>
+  <class name="driver.ted.astro.T_SolarCoords" map="A"/>
+  <field class="driver.ted.astro.T_SolarCoords" name="JD" map="A"/>
+  <field class="driver.ted.astro.T_SolarCoords" name="deltal" map="B"/>
+  <field class="driver.ted.astro.T_SolarCoords" name="alphal" map="C"/>
+  <method class="driver.ted.astro.T_SolarCoords" name="void main(java.lang.String[])" map="A"/>
+  <method class="driver.ted.astro.T_SolarCoords" name="double getDelta_low()" map="A"/>
+  <method class="driver.ted.astro.T_SolarCoords" name="void setDateTime(driver.ted.utilities.T_JulianDate)" map="A"/>
+  <method class="driver.ted.astro.T_SolarCoords" name="void calcSolarCoords()" map="B"/>
+  <method class="driver.ted.astro.T_SolarCoords" name="double getAlpha_low()" map="C"/>
+  <class name="driver.ted.astro.T_SVEphemeris" map="B"/>
+  <field class="driver.ted.astro.T_SVEphemeris" name="goodToGo" map="A"/>
+  <field class="driver.ted.astro.T_SVEphemeris" name="svcoords" map="B"/>
+  <field class="driver.ted.astro.T_SVEphemeris" name="Earth_Odot" map="C"/>
+  <field class="driver.ted.astro.T_SVEphemeris" name="Mu" map="D"/>
+  <field class="driver.ted.astro.T_SVEphemeris" name="alm" map="E"/>
+  <field class="driver.ted.astro.T_SVEphemeris" name="iZero" map="F"/>
+  <method class="driver.ted.astro.T_SVEphemeris" name="void main(java.lang.String[])" map="A"/>
+  <method class="driver.ted.astro.T_SVEphemeris" name="double calculateEk(double, double, double)" map="A"/>
+  <method class="driver.ted.astro.T_SVEphemeris" name="double[][] getXYZ(long, int)" map="A"/>
+  <method class="driver.ted.astro.T_SVEphemeris" name="void calculateOrbit(int, long, int)" map="A"/>
+  <class name="driver.ted.astro.T_Nutate" map="C"/>
+  <field class="driver.ted.astro.T_Nutate" name="AstoRad" map="A"/>
+  <field class="driver.ted.astro.T_Nutate" name="JD" map="B"/>
+  <field class="driver.ted.astro.T_Nutate" name="T" map="C"/>
+  <field class="driver.ted.astro.T_Nutate" name="M_nute" map="D"/>
+  <field class="driver.ted.astro.T_Nutate" name="A_nute" map="E"/>
+  <field class="driver.ted.astro.T_Nutate" name="dpsi" map="F"/>
+  <field class="driver.ted.astro.T_Nutate" name="deltae" map="G"/>
+  <field class="driver.ted.astro.T_Nutate" name="B_nute" map="H"/>
+  <field class="driver.ted.astro.T_Nutate" name="eps" map="I"/>
+  <method class="driver.ted.astro.T_Nutate" name="double get_eps(driver.ted.utilities.T_JulianDate)" map="A"/>
+  <method class="driver.ted.astro.T_Nutate" name="double get_deps(driver.ted.utilities.T_JulianDate)" map="B"/>
+  <method class="driver.ted.astro.T_Nutate" name="double get_dpsi(driver.ted.utilities.T_JulianDate)" map="C"/>
+  <method class="driver.ted.astro.T_Nutate" name="void calc()" map="A"/>
+  <class name="driver.ted.astro.T_LunarCoords" map="D"/>
+  <field class="driver.ted.astro.T_LunarCoords" name="NEW_MOON" map="A"/>
+  <field class="driver.ted.astro.T_LunarCoords" name="CONSTANTS_INITED" map="B"/>
+  <field class="driver.ted.astro.T_LunarCoords" name="rM" map="C"/>
+  <field class="driver.ted.astro.T_LunarCoords" name="FRESH_DATA" map="D"/>
+  <field class="driver.ted.astro.T_LunarCoords" name="rF" map="E"/>
+  <field class="driver.ted.astro.T_LunarCoords" name="bMPrime" map="F"/>
+  <field class="driver.ted.astro.T_LunarCoords" name="rD" map="G"/>
+  <field class="driver.ted.astro.T_LunarCoords" name="bCoeffSine" map="H"/>
+  <field class="driver.ted.astro.T_LunarCoords" name="FULL_MOON" map="I"/>
+  <field class="driver.ted.astro.T_LunarCoords" name="rCoeffSine" map="J"/>
+  <field class="driver.ted.astro.T_LunarCoords" name="lunarDeclination" map="K"/>
+  <field class="driver.ted.astro.T_LunarCoords" name="FIRST_QUARTER" map="L"/>
+  <field class="driver.ted.astro.T_LunarCoords" name="equatorialParallax" map="M"/>
+  <field class="driver.ted.astro.T_LunarCoords" name="apparentGeoLongitude" map="N"/>
+  <field class="driver.ted.astro.T_LunarCoords" name="JDE" map="O"/>
+  <field class="driver.ted.astro.T_LunarCoords" name="geoLatitude" map="P"/>
+  <field class="driver.ted.astro.T_LunarCoords" name="rCoeffCosine" map="Q"/>
+  <field class="driver.ted.astro.T_LunarCoords" name="apparentDeclination" map="R"/>
+  <field class="driver.ted.astro.T_LunarCoords" name="bM" map="S"/>
+  <field class="driver.ted.astro.T_LunarCoords" name="geoLongitude" map="T"/>
+  <field class="driver.ted.astro.T_LunarCoords" name="JD" map="U"/>
+  <field class="driver.ted.astro.T_LunarCoords" name="rMPrime" map="V"/>
+  <field class="driver.ted.astro.T_LunarCoords" name="apparentRightAscension" map="W"/>
+  <field class="driver.ted.astro.T_LunarCoords" name="bF" map="X"/>
+  <field class="driver.ted.astro.T_LunarCoords" name="lunarRightAscension" map="Y"/>
+  <field class="driver.ted.astro.T_LunarCoords" name="delta" map="Z"/>
+  <field class="driver.ted.astro.T_LunarCoords" name="bD" map="_"/>
+  <field class="driver.ted.astro.T_LunarCoords" name="LAST_QUARTER" map="a"/>
+  <method class="driver.ted.astro.T_LunarCoords" name="double getPhase(driver.ted.utilities.T_JulianDate, double, int)" map="A"/>
+  <method class="driver.ted.astro.T_LunarCoords" name="double getAlpha()" map="A"/>
+  <method class="driver.ted.astro.T_LunarCoords" name="void calcLunarCoords()" map="B"/>
+  <method class="driver.ted.astro.T_LunarCoords" name="double calc14AdditionalCorrections(double, double)" map="A"/>
+  <method class="driver.ted.astro.T_LunarCoords" name="void setDateTime(driver.ted.utilities.T_JulianDate)" map="A"/>
+  <method class="driver.ted.astro.T_LunarCoords" name="double getDelta()" map="C"/>
+  <method class="driver.ted.astro.T_LunarCoords" name="void main(java.lang.String[])" map="A"/>
+  <method class="driver.ted.astro.T_LunarCoords" name="double getEquatorialParallax()" map="D"/>
+  <method class="driver.ted.astro.T_LunarCoords" name="double determineK(driver.ted.utilities.T_JulianDate, int)" map="A"/>
+  <method class="driver.ted.astro.T_LunarCoords" name="void initConstants()" map="E"/>
+  <method class="driver.ted.astro.T_LunarCoords" name="void calcPhases(driver.ted.utilities.T_JulianDate, double, int)" map="B"/>
+  <method class="driver.ted.astro.T_LunarCoords" name="double getIllumination(driver.ted.utilities.T_JulianDate)" map="B"/>
+  <class name="driver.ted.astro.T_Sidereal" map="E"/>
+  <field class="driver.ted.astro.T_Sidereal" name="eps" map="A"/>
+  <field class="driver.ted.astro.T_Sidereal" name="dpsi" map="B"/>
+  <field class="driver.ted.astro.T_Sidereal" name="Thzero" map="C"/>
+  <field class="driver.ted.astro.T_Sidereal" name="Thzerocorr" map="D"/>
+  <method class="driver.ted.astro.T_Sidereal" name="void main(java.lang.String[])" map="A"/>
+  <method class="driver.ted.astro.T_Sidereal" name="double getApparentSiderealTime(driver.ted.utilities.T_JulianDate)" map="A"/>
+  <method class="driver.ted.astro.T_Sidereal" name="double getSiderealTime(driver.ted.utilities.T_JulianDate)" map="B"/>
+  <class name="driver.ted.astro.T_RiseSet" map="F"/>
+  <field class="driver.ted.astro.T_RiseSet" name="SetElevation" map="A"/>
+  <field class="driver.ted.astro.T_RiseSet" name="PLANET" map="B"/>
+  <field class="driver.ted.astro.T_RiseSet" name="SetTime" map="C"/>
+  <field class="driver.ted.astro.T_RiseSet" name="DEBUG" map="D"/>
+  <field class="driver.ted.astro.T_RiseSet" name="RiseTime" map="E"/>
+  <field class="driver.ted.astro.T_RiseSet" name="lon" map="F"/>
+  <field class="driver.ted.astro.T_RiseSet" name="SUN" map="G"/>
+  <field class="driver.ted.astro.T_RiseSet" name="DATA_FRESH" map="H"/>
+  <field class="driver.ted.astro.T_RiseSet" name="offset" map="I"/>
+  <field class="driver.ted.astro.T_RiseSet" name="SetAzimuth" map="J"/>
+  <field class="driver.ted.astro.T_RiseSet" name="lat" map="K"/>
+  <field class="driver.ted.astro.T_RiseSet" name="MOON" map="L"/>
+  <field class="driver.ted.astro.T_RiseSet" name="calcType" map="M"/>
+  <field class="driver.ted.astro.T_RiseSet" name="Sun_hzero" map="N"/>
+  <field class="driver.ted.astro.T_RiseSet" name="RiseAzimuth" map="O"/>
+  <field class="driver.ted.astro.T_RiseSet" name="TransitElevation" map="P"/>
+  <field class="driver.ted.astro.T_RiseSet" name="TransitTime" map="Q"/>
+  <field class="driver.ted.astro.T_RiseSet" name="RiseTimeDouble" map="R"/>
+  <field class="driver.ted.astro.T_RiseSet" name="RiseElevation" map="S"/>
+  <field class="driver.ted.astro.T_RiseSet" name="TransitTimeDouble" map="T"/>
+  <field class="driver.ted.astro.T_RiseSet" name="JD" map="U"/>
+  <field class="driver.ted.astro.T_RiseSet" name="AmountOfDaylight" map="V"/>
+  <field class="driver.ted.astro.T_RiseSet" name="tolerance" map="W"/>
+  <field class="driver.ted.astro.T_RiseSet" name="AmountOfDaylightDouble" map="X"/>
+  <field class="driver.ted.astro.T_RiseSet" name="Planet_hzero" map="Y"/>
+  <field class="driver.ted.astro.T_RiseSet" name="SetTimeDouble" map="Z"/>
+  <field class="driver.ted.astro.T_RiseSet" name="TransitAzimuth" map="_"/>
+  <method class="driver.ted.astro.T_RiseSet" name="double getLongitude()" map="A"/>
+  <method class="driver.ted.astro.T_RiseSet" name="double getRiseTimeDouble()" map="B"/>
+  <method class="driver.ted.astro.T_RiseSet" name="java.lang.String getAmountOfDaylight()" map="C"/>
+  <method class="driver.ted.astro.T_RiseSet" name="double getTransitTimeDouble()" map="D"/>
+  <method class="driver.ted.astro.T_RiseSet" name="double getSetAzimuth()" map="E"/>
+  <method class="driver.ted.astro.T_RiseSet" name="java.lang.String getSetTime()" map="F"/>
+  <method class="driver.ted.astro.T_RiseSet" name="double getTransitElevation()" map="G"/>
+  <method class="driver.ted.astro.T_RiseSet" name="void setTimeOffset(float)" map="A"/>
+  <method class="driver.ted.astro.T_RiseSet" name="double getRiseAzimuth()" map="H"/>
+  <method class="driver.ted.astro.T_RiseSet" name="double getTransitAzimuth()" map="I"/>
+  <method class="driver.ted.astro.T_RiseSet" name="void setbodyType(int)" map="A"/>
+  <method class="driver.ted.astro.T_RiseSet" name="void setLatitude(double)" map="A"/>
+  <method class="driver.ted.astro.T_RiseSet" name="double getSetElevation()" map="J"/>
+  <method class="driver.ted.astro.T_RiseSet" name="double getLatitude()" map="K"/>
+  <method class="driver.ted.astro.T_RiseSet" name="void CalculateRiseSet()" map="L"/>
+  <method class="driver.ted.astro.T_RiseSet" name="int getBodyType()" map="M"/>
+  <method class="driver.ted.astro.T_RiseSet" name="void setLongitude(double)" map="B"/>
+  <method class="driver.ted.astro.T_RiseSet" name="void main(java.lang.String[])" map="A"/>
+  <method class="driver.ted.astro.T_RiseSet" name="float getOffset()" map="N"/>
+  <method class="driver.ted.astro.T_RiseSet" name="double getAmountOfDaylightDouble()" map="O"/>
+  <method class="driver.ted.astro.T_RiseSet" name="double getRiseElevation()" map="P"/>
+  <method class="driver.ted.astro.T_RiseSet" name="java.lang.String getRiseTime()" map="Q"/>
+  <method class="driver.ted.astro.T_RiseSet" name="double getSetTimeDouble()" map="R"/>
+  <method class="driver.ted.astro.T_RiseSet" name="java.lang.String getTransitTime()" map="S"/>
+  <class name="driver.ted.JEDHelp$2" map="2"/>
+  <field class="driver.ted.JEDHelp$2" name="this$0" map="A"/>
+  <method class="driver.ted.JEDHelp$2" name="void windowClosing(java.awt.event.WindowEvent)" map="windowClosing"/>
+  <class name="driver.ted.JEDHelp$1" map="1"/>
+  <field class="driver.ted.JEDHelp$1" name="this$0" map="A"/>
+  <method class="driver.ted.JEDHelp$1" name="void hyperlinkUpdate(javax.swing.event.HyperlinkEvent)" map="hyperlinkUpdate"/>
+  <class name="driver.ted.JEDHelp" map="A"/>
+  <field class="driver.ted.JEDHelp" name="jScrollPane1" map="A"/>
+  <field class="driver.ted.JEDHelp" name="jEditorPane1" map="B"/>
+  <field class="driver.ted.JEDHelp" name="shouldDisplay" map="C"/>
+  <method class="driver.ted.JEDHelp" name="void access$000(driver.ted.JEDHelp, java.awt.event.WindowEvent)" map="A"/>
+  <method class="driver.ted.JEDHelp" name="void openAndLoadFile()" map="A"/>
+  <method class="driver.ted.JEDHelp" name="void initComponents()" map="B"/>
+  <method class="driver.ted.JEDHelp" name="void exitForm(java.awt.event.WindowEvent)" map="A"/>
+  <class name="driver.ted.DynamicTree$MyTreeModelListener" map="_A"/>
+  <field class="driver.ted.DynamicTree$MyTreeModelListener" name="this$0" map="A"/>
+  <method class="driver.ted.DynamicTree$MyTreeModelListener" name="void treeNodesInserted(javax.swing.event.TreeModelEvent)" map="treeNodesInserted"/>
+  <method class="driver.ted.DynamicTree$MyTreeModelListener" name="void treeStructureChanged(javax.swing.event.TreeModelEvent)" map="treeStructureChanged"/>
+  <method class="driver.ted.DynamicTree$MyTreeModelListener" name="void treeNodesChanged(javax.swing.event.TreeModelEvent)" map="treeNodesChanged"/>
+  <method class="driver.ted.DynamicTree$MyTreeModelListener" name="void treeNodesRemoved(javax.swing.event.TreeModelEvent)" map="treeNodesRemoved"/>
+  <class name="driver.ted.DynamicTree" map="B"/>
+  <field class="driver.ted.DynamicTree" name="tree" map="A"/>
+  <field class="driver.ted.DynamicTree" name="LEAF_NODE" map="B"/>
+  <field class="driver.ted.DynamicTree" name="rootNode" map="C"/>
+  <field class="driver.ted.DynamicTree" name="toolkit" map="D"/>
+  <field class="driver.ted.DynamicTree" name="CATEGORY_NODE" map="E"/>
+  <field class="driver.ted.DynamicTree" name="UNKNOWN_NODE" map="F"/>
+  <field class="driver.ted.DynamicTree" name="ROOT_NODE" map="G"/>
+  <field class="driver.ted.DynamicTree" name="treeModel" map="H"/>
+  <method class="driver.ted.DynamicTree" name="void setRootNodeName(java.lang.String)" map="A"/>
+  <method class="driver.ted.DynamicTree" name="void reload()" map="A"/>
+  <method class="driver.ted.DynamicTree" name="int nodeSelected()" map="B"/>
+  <method class="driver.ted.DynamicTree" name="java.lang.String getObject()" map="C"/>
+  <method class="driver.ted.DynamicTree" name="boolean checkForLast()" map="D"/>
+  <method class="driver.ted.DynamicTree" name="void clear()" map="E"/>
+  <method class="driver.ted.DynamicTree" name="javax.swing.JTree getTree()" map="F"/>
+  <method class="driver.ted.DynamicTree" name="javax.swing.tree.DefaultMutableTreeNode getCategoryNode(java.lang.String)" map="B"/>
+  <method class="driver.ted.DynamicTree" name="javax.swing.tree.DefaultMutableTreeNode addObject(javax.swing.tree.DefaultMutableTreeNode, java.lang.Object, boolean, boolean)" map="A"/>
+  <method class="driver.ted.DynamicTree" name="java.lang.String getParentObject()" map="G"/>
+  <method class="driver.ted.DynamicTree" name="javax.swing.tree.DefaultMutableTreeNode addObject(javax.swing.tree.DefaultMutableTreeNode, java.lang.Object)" map="A"/>
+  <method class="driver.ted.DynamicTree" name="javax.swing.tree.DefaultMutableTreeNode addObject(java.lang.Object)" map="A"/>
+  <method class="driver.ted.DynamicTree" name="void removeCurrentNode()" map="H"/>
+  <class name="driver.ted.JedFileView" map="C"/>
+  <field class="driver.ted.JedFileView" name="txtIcon" map="A"/>
+  <field class="driver.ted.JedFileView" name="archiveIcon" map="B"/>
+  <method class="driver.ted.JedFileView" name="java.lang.Boolean isTraversable(java.io.File)" map="isTraversable"/>
+  <method class="driver.ted.JedFileView" name="java.lang.String getDescription(java.io.File)" map="getDescription"/>
+  <method class="driver.ted.JedFileView" name="javax.swing.Icon getIcon(java.io.File)" map="getIcon"/>
+  <method class="driver.ted.JedFileView" name="java.lang.String getName(java.io.File)" map="getName"/>
+  <method class="driver.ted.JedFileView" name="java.lang.String getTypeDescription(java.io.File)" map="getTypeDescription"/>
+  <class name="driver.ted.JournalType" map="D"/>
+  <field class="driver.ted.JournalType" name="journalTypes" map="A"/>
+  <method class="driver.ted.JournalType" name="void clear()" map="A"/>
+  <method class="driver.ted.JournalType" name="int size()" map="B"/>
+  <method class="driver.ted.JournalType" name="boolean contains(java.lang.String)" map="A"/>
+  <method class="driver.ted.JournalType" name="void removeJournalType(java.lang.String)" map="B"/>
+  <method class="driver.ted.JournalType" name="void addJournalType(java.lang.String)" map="C"/>
+  <method class="driver.ted.JournalType" name="java.lang.String toString()" map="toString"/>
+  <class name="driver.ted.JournalEntry" map="E"/>
+  <field class="driver.ted.JournalEntry" name="ENTRY_NAME" map="A"/>
+  <field class="driver.ted.JournalEntry" name="journalEntry" map="B"/>
+  <field class="driver.ted.JournalEntry" name="journalDate" map="C"/>
+  <field class="driver.ted.JournalEntry" name="journalType" map="D"/>
+  <method class="driver.ted.JournalEntry" name="void defineEntryName()" map="A"/>
+  <method class="driver.ted.JournalEntry" name="java.lang.String getKey()" map="B"/>
+  <method class="driver.ted.JournalEntry" name="java.lang.String getJournalDate()" map="C"/>
+  <method class="driver.ted.JournalEntry" name="void setJournalType(java.lang.String)" map="A"/>
+  <method class="driver.ted.JournalEntry" name="java.lang.String getJournalType()" map="D"/>
+  <method class="driver.ted.JournalEntry" name="javax.swing.text.DefaultStyledDocument getDocument()" map="E"/>
+  <method class="driver.ted.JournalEntry" name="java.lang.String toString()" map="toString"/>
+  <method class="driver.ted.JournalEntry" name="int compareTo(java.lang.Object)" map="compareTo"/>
+  <method class="driver.ted.JournalEntry" name="double getJulianDate()" map="F"/>
+  <class name="driver.ted.JournalEntryOld" map="F"/>
+  <field class="driver.ted.JournalEntryOld" name="ENTRY_NAME" map="A"/>
+  <field class="driver.ted.JournalEntryOld" name="journalEntry" map="B"/>
+  <field class="driver.ted.JournalEntryOld" name="journalDate" map="C"/>
+  <field class="driver.ted.JournalEntryOld" name="journalType" map="D"/>
+  <method class="driver.ted.JournalEntryOld" name="void defineEntryName()" map="A"/>
+  <method class="driver.ted.JournalEntryOld" name="java.lang.String getKey()" map="B"/>
+  <method class="driver.ted.JournalEntryOld" name="java.lang.String getJournalDate()" map="C"/>
+  <method class="driver.ted.JournalEntryOld" name="void setJournalType(java.lang.String)" map="A"/>
+  <method class="driver.ted.JournalEntryOld" name="java.lang.String getJournalType()" map="D"/>
+  <method class="driver.ted.JournalEntryOld" name="javax.swing.text.DefaultStyledDocument getDocument()" map="E"/>
+  <method class="driver.ted.JournalEntryOld" name="java.lang.String toString()" map="toString"/>
+  <method class="driver.ted.JournalEntryOld" name="int compareTo(java.lang.Object)" map="compareTo"/>
+  <method class="driver.ted.JournalEntryOld" name="double getJulianDate()" map="F"/>
+  <class name="driver.ted.Utils" map="G"/>
+  <field class="driver.ted.Utils" name="arc" map="A"/>
+  <field class="driver.ted.Utils" name="text" map="B"/>
+  <method class="driver.ted.Utils" name="java.io.File setExtension(java.io.File, java.lang.String)" map="A"/>
+  <method class="driver.ted.Utils" name="java.lang.String getExtension(java.io.File)" map="A"/>
+  <class name="driver.ted.Jed$ActionWhiteOnBlue" map="_A"/>
+  <field class="driver.ted.Jed$ActionWhiteOnBlue" name="this$0" map="Z"/>
+  <method class="driver.ted.Jed$ActionWhiteOnBlue" name="void actionPerformed(java.awt.event.ActionEvent)" map="actionPerformed"/>
+  <class name="driver.ted.Jed$ActionShowToolbar" map="_B"/>
+  <field class="driver.ted.Jed$ActionShowToolbar" name="this$0" map="A"/>
+  <method class="driver.ted.Jed$ActionShowToolbar" name="void actionPerformed(java.awt.event.ActionEvent)" map="actionPerformed"/>
+  <class name="driver.ted.Jed$ActionSaveJournal" map="_C"/>
+  <field class="driver.ted.Jed$ActionSaveJournal" name="this$0" map="B"/>
+  <method class="driver.ted.Jed$ActionSaveJournal" name="void actionPerformed(java.awt.event.ActionEvent)" map="actionPerformed"/>
+  <class name="driver.ted.Jed$ActionOpen" map="_D"/>
+  <field class="driver.ted.Jed$ActionOpen" name="this$0" map="C"/>
+  <method class="driver.ted.Jed$ActionOpen" name="void actionPerformed(java.awt.event.ActionEvent)" map="actionPerformed"/>
+  <class name="driver.ted.Jed$ActionSetBackgroundColor" map="_E"/>
+  <field class="driver.ted.Jed$ActionSetBackgroundColor" name="this$0" map="D"/>
+  <method class="driver.ted.Jed$ActionSetBackgroundColor" name="void actionPerformed(java.awt.event.ActionEvent)" map="actionPerformed"/>
+  <class name="driver.ted.Jed$ActionOrangeOnPurple" map="_F"/>
+  <field class="driver.ted.Jed$ActionOrangeOnPurple" name="this$0" map="E"/>
+  <method class="driver.ted.Jed$ActionOrangeOnPurple" name="void actionPerformed(java.awt.event.ActionEvent)" map="actionPerformed"/>
+  <class name="driver.ted.Jed$ActionSaveEntryAs" map="_G"/>
+  <field class="driver.ted.Jed$ActionSaveEntryAs" name="this$0" map="F"/>
+  <method class="driver.ted.Jed$ActionSaveEntryAs" name="void actionPerformed(java.awt.event.ActionEvent)" map="actionPerformed"/>
+  <class name="driver.ted.Jed$ActionSaveJournalAs" map="_H"/>
+  <field class="driver.ted.Jed$ActionSaveJournalAs" name="this$0" map="G"/>
+  <method class="driver.ted.Jed$ActionSaveJournalAs" name="void actionPerformed(java.awt.event.ActionEvent)" map="actionPerformed"/>
+  <class name="driver.ted.Jed$JournalEditor_AboutBox" map="_I"/>
+  <field class="driver.ted.Jed$JournalEditor_AboutBox" name="this$0" map="A"/>
+  <field class="driver.ted.Jed$JournalEditor_AboutBox" name="button1" map="B"/>
+  <field class="driver.ted.Jed$JournalEditor_AboutBox" name="aboutPane" map="C"/>
+  <method class="driver.ted.Jed$JournalEditor_AboutBox" name="void actionPerformed(java.awt.event.ActionEvent)" map="actionPerformed"/>
+  <method class="driver.ted.Jed$JournalEditor_AboutBox" name="void Init()" map="A"/>
+  <method class="driver.ted.Jed$JournalEditor_AboutBox" name="void cancel()" map="B"/>
+  <method class="driver.ted.Jed$JournalEditor_AboutBox" name="void processWindowEvent(java.awt.event.WindowEvent)" map="processWindowEvent"/>
+  <class name="driver.ted.Jed$ActionWhiteOnBlack" map="_J"/>
+  <field class="driver.ted.Jed$ActionWhiteOnBlack" name="this$0" map="H"/>
+  <method class="driver.ted.Jed$ActionWhiteOnBlack" name="void actionPerformed(java.awt.event.ActionEvent)" map="actionPerformed"/>
+  <class name="driver.ted.Jed$ActionSetTextColor" map="_K"/>
+  <field class="driver.ted.Jed$ActionSetTextColor" name="this$0" map="I"/>
+  <method class="driver.ted.Jed$ActionSetTextColor" name="void actionPerformed(java.awt.event.ActionEvent)" map="actionPerformed"/>
+  <class name="driver.ted.Jed$ActionNewEntry" map="_L"/>
+  <field class="driver.ted.Jed$ActionNewEntry" name="this$0" map="J"/>
+  <method class="driver.ted.Jed$ActionNewEntry" name="void actionPerformed(java.awt.event.ActionEvent)" map="actionPerformed"/>
+  <class name="driver.ted.Jed$ActionJEDHelp" map="_M"/>
+  <field class="driver.ted.Jed$ActionJEDHelp" name="this$0" map="K"/>
+  <method class="driver.ted.Jed$ActionJEDHelp" name="void actionPerformed(java.awt.event.ActionEvent)" map="actionPerformed"/>
+  <class name="driver.ted.Jed$ActionGoldOnBlack" map="_N"/>
+  <field class="driver.ted.Jed$ActionGoldOnBlack" name="this$0" map="L"/>
+  <method class="driver.ted.Jed$ActionGoldOnBlack" name="void actionPerformed(java.awt.event.ActionEvent)" map="actionPerformed"/>
+  <class name="driver.ted.Jed$ActionSetCourierFont" map="_O"/>
+  <field class="driver.ted.Jed$ActionSetCourierFont" name="this$0" map="M"/>
+  <method class="driver.ted.Jed$ActionSetCourierFont" name="void actionPerformed(java.awt.event.ActionEvent)" map="actionPerformed"/>
+  <class name="driver.ted.Jed$ActionDateTimeStamp" map="_P"/>
+  <field class="driver.ted.Jed$ActionDateTimeStamp" name="this$0" map="N"/>
+  <method class="driver.ted.Jed$ActionDateTimeStamp" name="void actionPerformed(java.awt.event.ActionEvent)" map="actionPerformed"/>
+  <class name="driver.ted.Jed$ActionExportToDirectory" map="_Q"/>
+  <field class="driver.ted.Jed$ActionExportToDirectory" name="this$0" map="O"/>
+  <method class="driver.ted.Jed$ActionExportToDirectory" name="void actionPerformed(java.awt.event.ActionEvent)" map="actionPerformed"/>
+  <class name="driver.ted.Jed$ActionExportToZipFile" map="_R"/>
+  <field class="driver.ted.Jed$ActionExportToZipFile" name="this$0" map="P"/>
+  <method class="driver.ted.Jed$ActionExportToZipFile" name="void actionPerformed(java.awt.event.ActionEvent)" map="actionPerformed"/>
+  <class name="driver.ted.Jed$ActionShowContents" map="_S"/>
+  <field class="driver.ted.Jed$ActionShowContents" name="this$0" map="Q"/>
+  <method class="driver.ted.Jed$ActionShowContents" name="void actionPerformed(java.awt.event.ActionEvent)" map="actionPerformed"/>
+  <class name="driver.ted.Jed$ActionAboutJED" map="_T"/>
+  <field class="driver.ted.Jed$ActionAboutJED" name="this$0" map="R"/>
+  <method class="driver.ted.Jed$ActionAboutJED" name="void actionPerformed(java.awt.event.ActionEvent)" map="actionPerformed"/>
+  <class name="driver.ted.Jed$ActionClose" map="_U"/>
+  <field class="driver.ted.Jed$ActionClose" name="this$0" map="S"/>
+  <method class="driver.ted.Jed$ActionClose" name="void actionPerformed(java.awt.event.ActionEvent)" map="actionPerformed"/>
+  <class name="driver.ted.Jed$8" map="8"/>
+  <field class="driver.ted.Jed$8" name="this$0" map="A"/>
+  <method class="driver.ted.Jed$8" name="void actionPerformed(java.awt.event.ActionEvent)" map="actionPerformed"/>
+  <class name="driver.ted.Jed$7" map="7"/>
+  <field class="driver.ted.Jed$7" name="this$0" map="A"/>
+  <method class="driver.ted.Jed$7" name="void actionPerformed(java.awt.event.ActionEvent)" map="actionPerformed"/>
+  <class name="driver.ted.Jed$ActionSetTNRFont" map="_V"/>
+  <field class="driver.ted.Jed$ActionSetTNRFont" name="this$0" map="T"/>
+  <method class="driver.ted.Jed$ActionSetTNRFont" name="void actionPerformed(java.awt.event.ActionEvent)" map="actionPerformed"/>
+  <class name="driver.ted.Jed$ActionBlackOnWhite" map="_W"/>
+  <field class="driver.ted.Jed$ActionBlackOnWhite" name="this$0" map="U"/>
+  <method class="driver.ted.Jed$ActionBlackOnWhite" name="void actionPerformed(java.awt.event.ActionEvent)" map="actionPerformed"/>
+  <class name="driver.ted.Jed$6" map="6"/>
+  <field class="driver.ted.Jed$6" name="this$0" map="A"/>
+  <method class="driver.ted.Jed$6" name="void actionPerformed(java.awt.event.ActionEvent)" map="actionPerformed"/>
+  <class name="driver.ted.Jed$ActionImportFromDirectory" map="_X"/>
+  <field class="driver.ted.Jed$ActionImportFromDirectory" name="this$0" map="V"/>
+  <method class="driver.ted.Jed$ActionImportFromDirectory" name="void actionPerformed(java.awt.event.ActionEvent)" map="actionPerformed"/>
+  <class name="driver.ted.Jed$ActionSetArialFont" map="_Y"/>
+  <field class="driver.ted.Jed$ActionSetArialFont" name="this$0" map="W"/>
+  <method class="driver.ted.Jed$ActionSetArialFont" name="void actionPerformed(java.awt.event.ActionEvent)" map="actionPerformed"/>
+  <class name="driver.ted.Jed$5" map="5"/>
+  <field class="driver.ted.Jed$5" name="this$0" map="A"/>
+  <method class="driver.ted.Jed$5" name="void mouseReleased(java.awt.event.MouseEvent)" map="mouseReleased"/>
+  <method class="driver.ted.Jed$5" name="void mousePressed(java.awt.event.MouseEvent)" map="mousePressed"/>
+  <class name="driver.ted.Jed$4" map="4"/>
+  <field class="driver.ted.Jed$4" name="this$0" map="A"/>
+  <method class="driver.ted.Jed$4" name="void keyPressed(java.awt.event.KeyEvent)" map="keyPressed"/>
+  <class name="driver.ted.Jed$ActionSetSanSerifFont" map="_Z"/>
+  <field class="driver.ted.Jed$ActionSetSanSerifFont" name="this$0" map="X"/>
+  <method class="driver.ted.Jed$ActionSetSanSerifFont" name="void actionPerformed(java.awt.event.ActionEvent)" map="actionPerformed"/>
+  <class name="driver.ted.Jed$3" map="3"/>
+  <field class="driver.ted.Jed$3" name="this$0" map="A"/>
+  <method class="driver.ted.Jed$3" name="void windowDeiconified(java.awt.event.WindowEvent)" map="windowDeiconified"/>
+  <method class="driver.ted.Jed$3" name="void windowClosing(java.awt.event.WindowEvent)" map="windowClosing"/>
+  <class name="driver.ted.Jed$ActionLockJournal" map="__"/>
+  <field class="driver.ted.Jed$ActionLockJournal" name="this$0" map="Y"/>
+  <method class="driver.ted.Jed$ActionLockJournal" name="void actionPerformed(java.awt.event.ActionEvent)" map="actionPerformed"/>
+  <class name="driver.ted.Jed$2" map="2"/>
+  <field class="driver.ted.Jed$2" name="this$0" map="A"/>
+  <method class="driver.ted.Jed$2" name="void keyPressed(java.awt.event.KeyEvent)" map="keyPressed"/>
+  <class name="driver.ted.Jed$1" map="1"/>
+  <field class="driver.ted.Jed$1" name="this$0" map="A"/>
+  <method class="driver.ted.Jed$1" name="void valueChanged(javax.swing.event.TreeSelectionEvent)" map="valueChanged"/>
+  <field class="driver.ted.Jed" name="whiteOnBlueAction" map="A"/>
+  <field class="driver.ted.Jed" name="TimesNewRoman12" map="B"/>
+  <field class="driver.ted.Jed" name="blackOnWButton" map="C"/>
+  <field class="driver.ted.Jed" name="jMenuItem4" map="D"/>
+  <field class="driver.ted.Jed" name="wOnBlueButton1" map="E"/>
+  <field class="driver.ted.Jed" name="showToolbarAction" map="F"/>
+  <field class="driver.ted.Jed" name="directoryImport" map="G"/>
+  <field class="driver.ted.Jed" name="setCourierFontAction" map="H"/>
+  <field class="driver.ted.Jed" name="setBackgroundColorAction" map="I"/>
+  <field class="driver.ted.Jed" name="saveJournalAction" map="J"/>
+  <field class="driver.ted.Jed" name="addPasswordToggle" map="K"/>
+  <field class="driver.ted.Jed" name="openMenuItem" map="L"/>
+  <field class="driver.ted.Jed" name="ColorPresets" map="M"/>
+  <field class="driver.ted.Jed" name="exportToZipFileAction" map="N"/>
+  <field class="driver.ted.Jed" name="FileMenu" map="O"/>
+  <field class="driver.ted.Jed" name="lockJournalAction" map="P"/>
+  <field class="driver.ted.Jed" name="setArialFontAction" map="Q"/>
+  <field class="driver.ted.Jed" name="newEntryMenuItem" map="R"/>
+  <field class="driver.ted.Jed" name="DateStampButton" map="S"/>
+  <field class="driver.ted.Jed" name="dateTimeStampMenuItem" map="T"/>
+  <field class="driver.ted.Jed" name="ColorPresets1" map="U"/>
+  <field class="driver.ted.Jed" name="closeArchiveButton" map="V"/>
+  <field class="driver.ted.Jed" name="FontPresets1" map="W"/>
+  <field class="driver.ted.Jed" name="newEntryButton" map="X"/>
+  <field class="driver.ted.Jed" name="whiteOnBlackAction" map="Y"/>
+  <field class="driver.ted.Jed" name="About" map="Z"/>
+  <field class="driver.ted.Jed" name="saved" map="_"/>
+  <field class="driver.ted.Jed" name="orangeOnPurpleAction" map="a"/>
+  <field class="driver.ted.Jed" name="goldOnBlackAction" map="b"/>
+  <field class="driver.ted.Jed" name="saveArchiveMenuItem" map="c"/>
+  <field class="driver.ted.Jed" name="gOnBlackButton1" map="d"/>
+  <field class="driver.ted.Jed" name="jSeparator9" map="e"/>
+  <field class="driver.ted.Jed" name="centerPane" map="f"/>
+  <field class="driver.ted.Jed" name="jSeparator6" map="g"/>
+  <field class="driver.ted.Jed" name="Options" map="h"/>
+  <field class="driver.ted.Jed" name="jSeparator5" map="i"/>
+  <field class="driver.ted.Jed" name="jSeparator4" map="j"/>
+  <field class="driver.ted.Jed" name="jSeparator3" map="k"/>
+  <field class="driver.ted.Jed" name="jSeparator2" map="l"/>
+  <field class="driver.ted.Jed" name="treePanel" map="m"/>
+  <field class="driver.ted.Jed" name="jSeparator1" map="n"/>
+  <field class="driver.ted.Jed" name="jSplitPane1" map="o"/>
+  <field class="driver.ted.Jed" name="currentEntry" map="p"/>
+  <field class="driver.ted.Jed" name="Arial14" map="q"/>
+  <field class="driver.ted.Jed" name="statusBar" map="r"/>
+  <field class="driver.ted.Jed" name="currentFile" map="s"/>
+  <field class="driver.ted.Jed" name="exportToDirectoryAction" map="t"/>
+  <field class="driver.ted.Jed" name="wOnBlackButton1" map="u"/>
+  <field class="driver.ted.Jed" name="jSeparator11" map="v"/>
+  <field class="driver.ted.Jed" name="jSeparator10" map="w"/>
+  <field class="driver.ted.Jed" name="archiveChooser" map="z"/>
+  <field class="driver.ted.Jed" name="directoryExport" map="&#x00a2;"/>
+  <field class="driver.ted.Jed" name="saveEntryAsAction" map="&#x00a3;"/>
+  <field class="driver.ted.Jed" name="openAction" map="&#x00a4;"/>
+  <field class="driver.ted.Jed" name="saveJournalAsAction" map="&#x00a5;"/>
+  <field class="driver.ted.Jed" name="textColor" map="&#x00aa;"/>
+  <field class="driver.ted.Jed" name="jPopupMenu1" map="&#x00b5;"/>
+  <field class="driver.ted.Jed" name="SanSerif161" map="&#x00ba;"/>
+  <field class="driver.ted.Jed" name="jToggleButton1" map="&#x00c0;"/>
+  <field class="driver.ted.Jed" name="SanSerif16" map="&#x00c1;"/>
+  <field class="driver.ted.Jed" name="SetTextColor" map="&#x00c2;"/>
+  <field class="driver.ted.Jed" name="SaveEntryAs" map="&#x00c3;"/>
+  <field class="driver.ted.Jed" name="backColor" map="&#x00c4;"/>
+  <field class="driver.ted.Jed" name="gOnBlackButton" map="&#x00c5;"/>
+  <field class="driver.ted.Jed" name="oOnPurpleButton1" map="&#x00c6;"/>
+  <field class="driver.ted.Jed" name="jSeparator111" map="&#x00c7;"/>
+  <field class="driver.ted.Jed" name="prefs" map="&#x00c8;"/>
+  <field class="driver.ted.Jed" name="jedHelp" map="&#x00c9;"/>
+  <field class="driver.ted.Jed" name="closeAction" map="&#x00ca;"/>
+  <field class="driver.ted.Jed" name="SetBackColor" map="&#x00cb;"/>
+  <field class="driver.ted.Jed" name="archive" map="&#x00cc;"/>
+  <field class="driver.ted.Jed" name="jScrollPane1" map="&#x00cd;"/>
+  <field class="driver.ted.Jed" name="importJMenu" map="&#x00ce;"/>
+  <field class="driver.ted.Jed" name="Help" map="&#x00cf;"/>
+  <field class="driver.ted.Jed" name="jMenuBar1" map="&#x00d0;"/>
+  <field class="driver.ted.Jed" name="jTextPane1" map="&#x00d1;"/>
+  <field class="driver.ted.Jed" name="openArchiveButton" map="&#x00d2;"/>
+  <field class="driver.ted.Jed" name="Arial141" map="&#x00d3;"/>
+  <field class="driver.ted.Jed" name="aboutAction" map="&#x00d4;"/>
+  <field class="driver.ted.Jed" name="wOnBlueButton" map="&#x00d5;"/>
+  <field class="driver.ted.Jed" name="dateTimeStampAction" map="&#x00d6;"/>
+  <field class="driver.ted.Jed" name="setBackColorPop" map="&#x00d8;"/>
+  <field class="driver.ted.Jed" name="closeFileMenuItem" map="&#x00d9;"/>
+  <field class="driver.ted.Jed" name="jSeparator51" map="&#x00da;"/>
+  <field class="driver.ted.Jed" name="wOnBlackButton" map="&#x00db;"/>
+  <field class="driver.ted.Jed" name="frontColorPref" map="&#x00dc;"/>
+  <field class="driver.ted.Jed" name="exportJMenu" map="&#x00dd;"/>
+  <field class="driver.ted.Jed" name="TimesNewRoman121" map="&#x00de;"/>
+  <field class="driver.ted.Jed" name="setTextColorAction" map="&#x00df;"/>
+  <field class="driver.ted.Jed" name="backColorPref" map="&#x00e0;"/>
+  <field class="driver.ted.Jed" name="showHideAction" map="&#x00e1;"/>
+  <field class="driver.ted.Jed" name="saveArchiveButton" map="&#x00e2;"/>
+  <field class="driver.ted.Jed" name="newEntryAction" map="&#x00e3;"/>
+  <field class="driver.ted.Jed" name="oOnPurpleButton" map="&#x00e4;"/>
+  <field class="driver.ted.Jed" name="showToolBar" map="&#x00e5;"/>
+  <field class="driver.ted.Jed" name="helpButton" map="&#x00e6;"/>
+  <field class="driver.ted.Jed" name="setSanSerifFontAction" map="&#x00e7;"/>
+  <field class="driver.ted.Jed" name="CourierNew141" map="&#x00e8;"/>
+  <field class="driver.ted.Jed" name="buttonGroup2" map="&#x00e9;"/>
+  <field class="driver.ted.Jed" name="exitFileMenuItem" map="&#x00ea;"/>
+  <field class="driver.ted.Jed" name="buttonGroup1" map="&#x00eb;"/>
+  <field class="driver.ted.Jed" name="FontPresets" map="&#x00ec;"/>
+  <field class="driver.ted.Jed" name="zipFileExport" map="&#x00ed;"/>
+  <field class="driver.ted.Jed" name="setTextColorPop" map="&#x00ee;"/>
+  <field class="driver.ted.Jed" name="jedHelpAction" map="&#x00ef;"/>
+  <field class="driver.ted.Jed" name="blackOnWhiteAction" map="&#x00f0;"/>
+  <field class="driver.ted.Jed" name="blackOnWButton1" map="&#x00f1;"/>
+  <field class="driver.ted.Jed" name="openJournalAction" map="&#x00f2;"/>
+  <field class="driver.ted.Jed" name="statusLeft" map="&#x00f3;"/>
+  <field class="driver.ted.Jed" name="jToolBar1" map="&#x00f4;"/>
+  <field class="driver.ted.Jed" name="saveArchiveAs" map="&#x00f5;"/>
+  <field class="driver.ted.Jed" name="showHideContents" map="&#x00f6;"/>
+  <field class="driver.ted.Jed" name="CourierNew14" map="&#x00f8;"/>
+  <field class="driver.ted.Jed" name="setTNRFontAction" map="&#x00f9;"/>
+  <field class="driver.ted.Jed" name="importFromDirectoryAction" map="&#x00fa;"/>
+  <field class="driver.ted.Jed" name="statusRight" map="&#x00fb;"/>
+  <field class="driver.ted.Jed" name="hidePane" map="&#x00fc;"/>
+  <method class="driver.ted.Jed" name="java.awt.Color getStoredBackColor()" map="A"/>
+  <method class="driver.ted.Jed" name="void access$400(driver.ted.Jed, java.awt.event.KeyEvent)" map="A"/>
+  <method class="driver.ted.Jed" name="driver.ted.Jed$ActionClose access$1000(driver.ted.Jed)" map="A"/>
+  <method class="driver.ted.Jed" name="void access$300(driver.ted.Jed, java.awt.event.WindowEvent)" map="A"/>
+  <method class="driver.ted.Jed" name="void jTextPane1MouseReleased(java.awt.event.MouseEvent)" map="A"/>
+  <method class="driver.ted.Jed" name="javax.swing.JCheckBoxMenuItem access$1100(driver.ted.Jed)" map="B"/>
+  <method class="driver.ted.Jed" name="javax.swing.JPanel access$2000(driver.ted.Jed)" map="C"/>
+  <method class="driver.ted.Jed" name="javax.swing.JTextPane access$1400(driver.ted.Jed)" map="D"/>
+  <method class="driver.ted.Jed" name="void access$800(driver.ted.Jed, java.awt.event.ActionEvent)" map="A"/>
+  <method class="driver.ted.Jed" name="void tryOpeningSuppliedArchive(java.lang.String)" map="A"/>
+  <method class="driver.ted.Jed" name="java.awt.Color access$1700(driver.ted.Jed)" map="E"/>
+  <method class="driver.ted.Jed" name="void access$500(driver.ted.Jed, java.awt.event.MouseEvent)" map="A"/>
+  <method class="driver.ted.Jed" name="void setColorPrefs(java.awt.Color, java.awt.Color)" map="A"/>
+  <method class="driver.ted.Jed" name="void access$100(driver.ted.Jed, java.awt.event.KeyEvent)" map="B"/>
+  <method class="driver.ted.Jed" name="javax.swing.JCheckBoxMenuItem access$2200(driver.ted.Jed)" map="F"/>
+  <method class="driver.ted.Jed" name="void access$1300(driver.ted.Jed, boolean)" map="A"/>
+  <method class="driver.ted.Jed" name="void initComponents()" map="B"/>
+  <method class="driver.ted.Jed" name="driver.ted.Jed$ActionNewEntry access$1500(driver.ted.Jed)" map="G"/>
+  <method class="driver.ted.Jed" name="void access$2400(driver.ted.Jed, java.awt.Color, java.awt.Color)" map="A"/>
+  <method class="driver.ted.Jed" name="void performGetAction()" map="C"/>
+  <method class="driver.ted.Jed" name="javax.swing.JCheckBoxMenuItem access$1900(driver.ted.Jed)" map="H"/>
+  <method class="driver.ted.Jed" name="java.awt.Color getStoredFrontColor()" map="D"/>
+  <method class="driver.ted.Jed" name="driver.ted.Jed$ActionSaveJournal access$2500(driver.ted.Jed)" map="I"/>
+  <method class="driver.ted.Jed" name="void access$1200(driver.ted.Jed)" map="J"/>
+  <method class="driver.ted.Jed" name="javax.swing.JToggleButton access$1800(driver.ted.Jed)" map="K"/>
+  <method class="driver.ted.Jed" name="void exitForm(java.awt.event.WindowEvent)" map="A"/>
+  <method class="driver.ted.Jed" name="javax.swing.JToolBar access$2300(driver.ted.Jed)" map="L"/>
+  <method class="driver.ted.Jed" name="void access$900(driver.ted.Jed, java.awt.event.ActionEvent)" map="B"/>
+  <method class="driver.ted.Jed" name="javax.swing.JPanel access$2100(driver.ted.Jed)" map="M"/>
+  <method class="driver.ted.Jed" name="void createActions()" map="E"/>
+  <method class="driver.ted.Jed" name="void changeEditingStatus(boolean)" map="A"/>
+  <method class="driver.ted.Jed" name="void showHideContentsActionPerformed(java.awt.event.ActionEvent)" map="A"/>
+  <method class="driver.ted.Jed" name="void jToggleButton1ActionPerformed(java.awt.event.ActionEvent)" map="B"/>
+  <method class="driver.ted.Jed" name="void access$200(driver.ted.Jed, java.awt.event.WindowEvent)" map="B"/>
+  <method class="driver.ted.Jed" name="void access$600(driver.ted.Jed, java.awt.event.MouseEvent)" map="B"/>
+  <method class="driver.ted.Jed" name="void access$000(driver.ted.Jed)" map="N"/>
+  <method class="driver.ted.Jed" name="java.awt.Color access$1600(driver.ted.Jed)" map="O"/>
+  <method class="driver.ted.Jed" name="void jTextPane1KeyTyped(java.awt.event.KeyEvent)" map="A"/>
+  <method class="driver.ted.Jed" name="void jTextPane1KeyPressed(java.awt.event.KeyEvent)" map="B"/>
+  <method class="driver.ted.Jed" name="void access$700(driver.ted.Jed, java.awt.event.ActionEvent)" map="C"/>
+  <method class="driver.ted.Jed" name="void exitFileMenuItemActionPerformed(java.awt.event.ActionEvent)" map="C"/>
+  <method class="driver.ted.Jed" name="void formWindowDeiconified(java.awt.event.WindowEvent)" map="B"/>
+  <method class="driver.ted.Jed" name="void updateTitles()" map="F"/>
+  <method class="driver.ted.Jed" name="void performKeyAction(java.awt.event.KeyEvent)" map="C"/>
+  <method class="driver.ted.Jed" name="void jTextPane1MousePressed(java.awt.event.MouseEvent)" map="B"/>
+  <method class="driver.ted.Jed" name="boolean tryClosingArchive(java.awt.event.ActionEvent)" map="D"/>
+  <class name="driver.ted.splashPane" map="H"/>
+  <field class="driver.ted.splashPane" name="jLabel6" map="A"/>
+  <field class="driver.ted.splashPane" name="jLabel4" map="B"/>
+  <field class="driver.ted.splashPane" name="jLabel3" map="C"/>
+  <field class="driver.ted.splashPane" name="jLabel2" map="D"/>
+  <method class="driver.ted.splashPane" name="void paintComponent(java.awt.Graphics)" map="paintComponent"/>
+  <method class="driver.ted.splashPane" name="void initComponents()" map="A"/>
+  <class name="driver.ted.ArchiveFilter" map="I"/>
+  <method class="driver.ted.ArchiveFilter" name="boolean accept(java.io.File)" map="accept"/>
+  <method class="driver.ted.ArchiveFilter" name="java.lang.String getDescription()" map="getDescription"/>
+  <class name="driver.ted.initialPasswordDialog$4" map="4"/>
+  <field class="driver.ted.initialPasswordDialog$4" name="this$0" map="A"/>
+  <method class="driver.ted.initialPasswordDialog$4" name="void actionPerformed(java.awt.event.ActionEvent)" map="actionPerformed"/>
+  <class name="driver.ted.initialPasswordDialog$3" map="3"/>
+  <field class="driver.ted.initialPasswordDialog$3" name="this$0" map="A"/>
+  <method class="driver.ted.initialPasswordDialog$3" name="void actionPerformed(java.awt.event.ActionEvent)" map="actionPerformed"/>
+  <class name="driver.ted.initialPasswordDialog$2" map="2"/>
+  <field class="driver.ted.initialPasswordDialog$2" name="this$0" map="A"/>
+  <method class="driver.ted.initialPasswordDialog$2" name="void actionPerformed(java.awt.event.ActionEvent)" map="actionPerformed"/>
+  <class name="driver.ted.initialPasswordDialog$1" map="1"/>
+  <field class="driver.ted.initialPasswordDialog$1" name="this$0" map="A"/>
+  <method class="driver.ted.initialPasswordDialog$1" name="void windowClosing(java.awt.event.WindowEvent)" map="windowClosing"/>
+  <class name="driver.ted.initialPasswordDialog" map="J"/>
+  <field class="driver.ted.initialPasswordDialog" name="password" map="A"/>
+  <field class="driver.ted.initialPasswordDialog" name="jButton2" map="B"/>
+  <field class="driver.ted.initialPasswordDialog" name="jButton1" map="C"/>
+  <field class="driver.ted.initialPasswordDialog" name="jPasswordField1" map="D"/>
+  <field class="driver.ted.initialPasswordDialog" name="jLabel2" map="E"/>
+  <field class="driver.ted.initialPasswordDialog" name="jPasswordField11" map="F"/>
+  <field class="driver.ted.initialPasswordDialog" name="jLabel1" map="G"/>
+  <method class="driver.ted.initialPasswordDialog" name="void jButton2ActionPerformed(java.awt.event.ActionEvent)" map="A"/>
+  <method class="driver.ted.initialPasswordDialog" name="void access$300(driver.ted.initialPasswordDialog, java.awt.event.ActionEvent)" map="A"/>
+  <method class="driver.ted.initialPasswordDialog" name="boolean passwordChecksOut()" map="A"/>
+  <method class="driver.ted.initialPasswordDialog" name="void initComponents()" map="B"/>
+  <method class="driver.ted.initialPasswordDialog" name="void formWindowClosing(java.awt.event.WindowEvent)" map="A"/>
+  <method class="driver.ted.initialPasswordDialog" name="char[] getPassword()" map="C"/>
+  <method class="driver.ted.initialPasswordDialog" name="void access$200(driver.ted.initialPasswordDialog, java.awt.event.ActionEvent)" map="B"/>
+  <method class="driver.ted.initialPasswordDialog" name="void jButton1ActionPerformed(java.awt.event.ActionEvent)" map="B"/>
+  <method class="driver.ted.initialPasswordDialog" name="void access$000(driver.ted.initialPasswordDialog, java.awt.event.WindowEvent)" map="A"/>
+  <method class="driver.ted.initialPasswordDialog" name="void access$100(driver.ted.initialPasswordDialog, java.awt.event.ActionEvent)" map="C"/>
+  <method class="driver.ted.initialPasswordDialog" name="void jPasswordField1ActionPerformed(java.awt.event.ActionEvent)" map="C"/>
+  <class name="driver.ted.DuplicateValueException" map="K"/>
+  <class name="driver.ted.TextFilter" map="L"/>
+  <method class="driver.ted.TextFilter" name="boolean accept(java.io.File)" map="accept"/>
+  <method class="driver.ted.TextFilter" name="java.lang.String getDescription()" map="getDescription"/>
+  <class name="driver.ted.NewAbstractAction" map="M"/>
+  <method class="driver.ted.NewAbstractAction" name="void setSmallIcon(javax.swing.Icon)" map="A"/>
+  <method class="driver.ted.NewAbstractAction" name="void setShortDescription(java.lang.String)" map="A"/>
+  <method class="driver.ted.NewAbstractAction" name="void setMnemonic(java.lang.Integer)" map="A"/>
+  <method class="driver.ted.NewAbstractAction" name="void actionPerformed(java.awt.event.ActionEvent)" map="actionPerformed"/>
+  <method class="driver.ted.NewAbstractAction" name="void setName(java.lang.String)" map="B"/>
+  <class name="driver.ted.passwordDialog$4" map="4"/>
+  <field class="driver.ted.passwordDialog$4" name="this$0" map="A"/>
+  <method class="driver.ted.passwordDialog$4" name="void actionPerformed(java.awt.event.ActionEvent)" map="actionPerformed"/>
+  <class name="driver.ted.passwordDialog$3" map="3"/>
+  <field class="driver.ted.passwordDialog$3" name="this$0" map="A"/>
+  <method class="driver.ted.passwordDialog$3" name="void actionPerformed(java.awt.event.ActionEvent)" map="actionPerformed"/>
+  <class name="driver.ted.passwordDialog$2" map="2"/>
+  <field class="driver.ted.passwordDialog$2" name="this$0" map="A"/>
+  <method class="driver.ted.passwordDialog$2" name="void actionPerformed(java.awt.event.ActionEvent)" map="actionPerformed"/>
+  <class name="driver.ted.passwordDialog$1" map="1"/>
+  <field class="driver.ted.passwordDialog$1" name="this$0" map="A"/>
+  <method class="driver.ted.passwordDialog$1" name="void windowClosing(java.awt.event.WindowEvent)" map="windowClosing"/>
+  <class name="driver.ted.passwordDialog" map="N"/>
+  <field class="driver.ted.passwordDialog" name="jButton2" map="A"/>
+  <field class="driver.ted.passwordDialog" name="jButton1" map="B"/>
+  <field class="driver.ted.passwordDialog" name="jPasswordField1" map="C"/>
+  <field class="driver.ted.passwordDialog" name="currentPassword" map="D"/>
+  <field class="driver.ted.passwordDialog" name="jLabel1" map="E"/>
+  <method class="driver.ted.passwordDialog" name="void jButton2ActionPerformed(java.awt.event.ActionEvent)" map="A"/>
+  <method class="driver.ted.passwordDialog" name="void access$100(driver.ted.passwordDialog, java.awt.event.ActionEvent)" map="A"/>
+  <method class="driver.ted.passwordDialog" name="void initComponents()" map="A"/>
+  <method class="driver.ted.passwordDialog" name="char[] getPassword()" map="B"/>
+  <method class="driver.ted.passwordDialog" name="void access$300(driver.ted.passwordDialog, java.awt.event.ActionEvent)" map="B"/>
+  <method class="driver.ted.passwordDialog" name="void jButton1ActionPerformed(java.awt.event.ActionEvent)" map="B"/>
+  <method class="driver.ted.passwordDialog" name="void access$000(driver.ted.passwordDialog, java.awt.event.WindowEvent)" map="A"/>
+  <method class="driver.ted.passwordDialog" name="void closeDialog(java.awt.event.WindowEvent)" map="A"/>
+  <method class="driver.ted.passwordDialog" name="void access$200(driver.ted.passwordDialog, java.awt.event.ActionEvent)" map="C"/>
+  <method class="driver.ted.passwordDialog" name="void jPasswordField1ActionPerformed(java.awt.event.ActionEvent)" map="C"/>
+  <class name="driver.ted.JournalArchive" map="O"/>
+  <field class="driver.ted.JournalArchive" name="pwEnabled" map="A"/>
+  <field class="driver.ted.JournalArchive" name="pwMap" map="B"/>
+  <field class="driver.ted.JournalArchive" name="dirtyState" map="C"/>
+  <field class="driver.ted.JournalArchive" name="currentEntry" map="D"/>
+  <field class="driver.ted.JournalArchive" name="archiveTypes" map="E"/>
+  <field class="driver.ted.JournalArchive" name="pw" map="F"/>
+  <field class="driver.ted.JournalArchive" name="archiveName" map="G"/>
+  <field class="driver.ted.JournalArchive" name="journalEntries" map="H"/>
+  <method class="driver.ted.JournalArchive" name="void removeJournalType(java.lang.String)" map="A"/>
+  <method class="driver.ted.JournalArchive" name="java.io.File importFromDirectory(javax.swing.JFrame, javax.swing.text.EditorKit, driver.ted.DynamicTree)" map="A"/>
+  <method class="driver.ted.JournalArchive" name="java.lang.String getArchiveName()" map="A"/>
+  <method class="driver.ted.JournalArchive" name="boolean export(javax.swing.JFrame, javax.swing.text.EditorKit, boolean)" map="A"/>
+  <method class="driver.ted.JournalArchive" name="void setDirty(boolean)" map="A"/>
+  <method class="driver.ted.JournalArchive" name="boolean removeEntry(driver.ted.JournalEntry)" map="A"/>
+  <method class="driver.ted.JournalArchive" name="boolean openArchive(java.io.File, driver.ted.DynamicTree)" map="A"/>
+  <method class="driver.ted.JournalArchive" name="void setArchiveName(driver.ted.DynamicTree, java.io.File)" map="A"/>
+  <method class="driver.ted.JournalArchive" name="boolean isPasswordEnabled()" map="B"/>
+  <method class="driver.ted.JournalArchive" name="driver.ted.JournalEntry getJournalEntry(java.lang.String)" map="B"/>
+  <method class="driver.ted.JournalArchive" name="void clear(driver.ted.DynamicTree)" map="A"/>
+  <method class="driver.ted.JournalArchive" name="boolean saveArchive(driver.ted.DynamicTree, java.io.File)" map="B"/>
+  <method class="driver.ted.JournalArchive" name="void addJournalEntry(driver.ted.DynamicTree, java.lang.String, driver.ted.JournalEntry, boolean)" map="A"/>
+  <method class="driver.ted.JournalArchive" name="void setPasswordEnabled(boolean)" map="B"/>
+  <method class="driver.ted.JournalArchive" name="boolean isPasswordGood(char[])" map="A"/>
+  <method class="driver.ted.JournalArchive" name="void clearPassword()" map="C"/>
+  <method class="driver.ted.JournalArchive" name="boolean saveAsFile(javax.swing.JFrame, javax.swing.text.EditorKit, javax.swing.JFileChooser)" map="A"/>
+  <method class="driver.ted.JournalArchive" name="java.util.HashMap packPassword()" map="D"/>
+  <method class="driver.ted.JournalArchive" name="void openFile(java.io.File)" map="A"/>
+  <method class="driver.ted.JournalArchive" name="void unpackPassword(java.util.HashMap)" map="A"/>
+  <method class="driver.ted.JournalArchive" name="driver.ted.JournalEntry getCurrentEntry()" map="E"/>
+  <method class="driver.ted.JournalArchive" name="boolean isDirty()" map="F"/>
+  <method class="driver.ted.JournalArchive" name="boolean addNewJournalType(java.lang.String)" map="C"/>
+  <method class="driver.ted.JournalArchive" name="void setPassword(char[])" map="B"/>
+  <method class="driver.ted.JournalArchive" name="boolean okToAbandon()" map="G"/>
+  <package name="org" map="B"/>
+  <package name="org.netbeans" map="A"/>
+  <package name="org.netbeans.lib" map="A"/>
+  <package name="org.netbeans.lib.awtextra" map="A"/>
+  <class name="org.netbeans.lib.awtextra.AbsoluteConstraints" map="A"/>
+  <field class="org.netbeans.lib.awtextra.AbsoluteConstraints" name="height" map="A"/>
+  <field class="org.netbeans.lib.awtextra.AbsoluteConstraints" name="x" map="B"/>
+  <field class="org.netbeans.lib.awtextra.AbsoluteConstraints" name="width" map="C"/>
+  <field class="org.netbeans.lib.awtextra.AbsoluteConstraints" name="y" map="D"/>
+  <field class="org.netbeans.lib.awtextra.AbsoluteConstraints" name="serialVersionUID" map="E"/>
+  <method class="org.netbeans.lib.awtextra.AbsoluteConstraints" name="int getY()" map="A"/>
+  <method class="org.netbeans.lib.awtextra.AbsoluteConstraints" name="int getWidth()" map="B"/>
+  <method class="org.netbeans.lib.awtextra.AbsoluteConstraints" name="java.lang.String toString()" map="toString"/>
+  <method class="org.netbeans.lib.awtextra.AbsoluteConstraints" name="int getX()" map="C"/>
+  <method class="org.netbeans.lib.awtextra.AbsoluteConstraints" name="int getHeight()" map="D"/>
+  <class name="org.netbeans.lib.awtextra.AbsoluteLayout" map="B"/>
+  <field class="org.netbeans.lib.awtextra.AbsoluteLayout" name="constraints" map="A"/>
+  <field class="org.netbeans.lib.awtextra.AbsoluteLayout" name="serialVersionUID" map="B"/>
+  <method class="org.netbeans.lib.awtextra.AbsoluteLayout" name="void removeLayoutComponent(java.awt.Component)" map="removeLayoutComponent"/>
+  <method class="org.netbeans.lib.awtextra.AbsoluteLayout" name="float getLayoutAlignmentX(java.awt.Container)" map="getLayoutAlignmentX"/>
+  <method class="org.netbeans.lib.awtextra.AbsoluteLayout" name="void layoutContainer(java.awt.Container)" map="layoutContainer"/>
+  <method class="org.netbeans.lib.awtextra.AbsoluteLayout" name="float getLayoutAlignmentY(java.awt.Container)" map="getLayoutAlignmentY"/>
+  <method class="org.netbeans.lib.awtextra.AbsoluteLayout" name="java.awt.Dimension preferredLayoutSize(java.awt.Container)" map="preferredLayoutSize"/>
+  <method class="org.netbeans.lib.awtextra.AbsoluteLayout" name="java.awt.Dimension maximumLayoutSize(java.awt.Container)" map="maximumLayoutSize"/>
+  <method class="org.netbeans.lib.awtextra.AbsoluteLayout" name="void addLayoutComponent(java.lang.String, java.awt.Component)" map="addLayoutComponent"/>
+  <method class="org.netbeans.lib.awtextra.AbsoluteLayout" name="void addLayoutComponent(java.awt.Component, java.lang.Object)" map="addLayoutComponent"/>
+  <method class="org.netbeans.lib.awtextra.AbsoluteLayout" name="void invalidateLayout(java.awt.Container)" map="invalidateLayout"/>
+  <method class="org.netbeans.lib.awtextra.AbsoluteLayout" name="java.awt.Dimension minimumLayoutSize(java.awt.Container)" map="minimumLayoutSize"/>
+</map>
+</yguard>

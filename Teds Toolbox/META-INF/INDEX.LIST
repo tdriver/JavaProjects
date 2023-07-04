@@ -1,0 +1,8 @@
+JarIndex-Version: 1.0
+
+tmp.jar
+ptolemy
+ptolemy/plot
+ptolemy/plot/plotml
+ptolemy/plot/compat
+
