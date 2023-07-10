@@ -1,0 +1,384 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>JED Help</title>
+</head>
+
+<body>
+
+<p align="center"><font size="5"><b>Ted's Toolbox Help</b></font><b><br>
+Version 2.1<br>
+Copyright © Ted Driver 2002-2005</b></p>
+<p align="center"><b>
+<font size="2"><a href="#Version History">Version History</a>
+</font>
+</b></p>
+<table border="0" width="100%" height="156">
+  <tr>
+    <td width="51%" height="152" valign="top" align="center">
+<b>
+<img border="0" src="Help16.gif" width="16" height="16">
+<a href="#General">General Help </a></b>
+<p><b>
+<img border="0" src="timetool.gif" width="16" height="16"> 
+ <a href="#Time Tools">Time Tools</a></b></p>
+<p><b>
+<img border="0" src="GPStool.gif" width="16" height="16"> 
+ <a href="#GPS Tools">GPS Tools</a></b></p>
+<p><b>
+<img border="0" src="coordtool.gif" width="16" height="16"> 
+ <a href="#Coordinate Tools">Coordinate Tools</a></b></p>
+    </td>
+    <td width="49%" height="152" valign="top" align="center">
+<p><b>
+<img border="0" src="solartool.gif" width="16" height="16"> 
+ <a href="#Solar Tools">Solar Tools</a></b></p>
+<p><b>
+<img border="0" src="lunartool.gif" width="16" height="16"> 
+ <a href="#Lunar Tools">Lunar Tools</a></b></p>
+<p><b>
+<img border="0" src="siderealtool.gif" width="16" height="16"> 
+ <a href="#Sidereal Tools">Sidereal Tools</a></b></p>
+<p><b>
+<img border="0" src="utilitiestool.gif" width="16" height="16"> 
+ <a href="#Utility Tools">Utility Tools</a></b></p>
+    </td>
+  </tr>
+  </table>
+<hr>
+<p align="center"><b><font size="4">
+<img border="0" src="Help24.gif" width="24" height="24" align="middle">
+ </font>
+<a name="General"><font size="5">General</font></a></b></p>
+<p align="left"><font size="4"><i>Introduction</i></font></p>
+<p align="left">I wrote Ted's Toolbox over several years and I have tested every
+algorithm in it.&nbsp; There were no good tools on the scene that allowed me to do all the different
+types of analysis that I needed to do, and I found myself writing one-off tools
+for different applications.&nbsp; I had a need for a consolidated set of tools
+that I could access easily.&nbsp; I created Ted's Toolbox to serve my
+purposes.&nbsp; I hope it serves yours too.</p>
+<p align="left"><font size="4"><i>General Help</i></font></p>
+<p align="left">All of the tools in the toolbox can be accessed by either a
+button on the toolbar or by a menu option, your choice.&nbsp; Each tool comes up
+as a separate window in the toolbox frame.&nbsp; This help file is in a window
+that gets maximized when you open it.&nbsp; That's so you can have this help
+visible in the background while you work with the tools.&nbsp; Each tool type
+has it's own icon and color.&nbsp; The color is shown in the border around the
+tool window.&nbsp; Some tools even have pictures as their background.&nbsp; I
+did this only for those that made sense.&nbsp;&nbsp; Here's a list of the tools,
+their icons and colors and a short description of each, as of this release.</p>
+<p align="left">Note that with version 2.1, the Applet version of Ted's toolbox
+is now available.&nbsp; Some of the items in this help file reference things
+that can only be done with the application.&nbsp; The nature of applets do not
+allow control over a user's computer, so if you want all the functionality
+outlined in this help, download the application version of Ted's Toolbox.</p>
+<div align="center">
+  <center>
+  <table border="1" width="67%" height="496">
+    <tr>
+      <td width="4%" align="center" height="19"></td>
+      <td width="25%" align="center" height="19"><b>Tool Name</b></td>
+      <td width="71%" align="center" height="19"><b>Description</b></td>
+    </tr>
+    <tr>
+      <td width="4%" align="center" height="57"><b>
+<img border="0" src="timetool.gif" width="16" height="16"></b></td>
+      <td width="25%" bordercolor="#800080" align="center" height="57"><font color="#800080">Time
+        Analysis</font></td>
+      <td width="71%" align="left" height="57" bordercolor="#800080">This tool
+        allows you to specify a common Date/Time or Julian Date and learn the
+        Julian Date, common Date/Time, Modified Julian Date,&nbsp; Day of Year,
+        Day of Week and leap year status.&nbsp; You can also have the displayed
+        time or current time continuously update.</td>
+    </tr>
+    <tr>
+      <td width="4%" align="center" height="76"><b><img border="0" src="timetool.gif" width="16" height="16"></b></td>
+      <td width="25%" align="center" height="76" bordercolor="#800080"><font color="#800080">Time
+        Interval Analysis</font></td>
+      <td width="71%" align="left" height="76" bordercolor="#800080">Just as in
+        the Time Analysis tool, this tool allows you to specify a common
+        Date/Time or Julian Date for two different and times and determine the
+        difference between the two times.&nbsp; The difference cais displayed in
+        Y:M:D:H:M:S format (Years:Months:Days:Hours:Minutes:Seconds) and in
+        Decimal days format (days.fraction)</td>
+    </tr>
+    <tr>
+      <td width="4%" align="center" height="95">.<b><img border="0" src="GPStool.gif" width="16" height="16"> 
+        </b></td>
+      <td width="25%" align="center" height="95" bordercolor="#FF6600"><font color="#FF6600">GPS
+        Parameters</font></td>
+      <td width="71%" align="left" height="95" bordercolor="#FF6600">The GPS
+        Parameters tool provides vital information to anyone working in the GPS
+        community.&nbsp; Including, GPS Week, Time of Week, K-Points since epoch
+        and GPS epoch dates. Additionally, the Z-Count corresponding to the
+        input time is displayed in binary, hex and integer formats.&nbsp; If you
+        like, you can continuously update the currently displayed GPS
+        parameters.</td>
+    </tr>
+    <tr>
+      <td width="4%" align="center" height="19"><b><img border="0" src="GPStool.gif" width="16" height="16"> 
+        </b></td>
+      <td width="25%" align="center" height="19" bordercolor="#FF6600"><font color="#FF6600">Time
+        Of Week</font></td>
+      <td width="71%" align="left" height="19" bordercolor="#FF6600">The GPS
+        Time week tool calculates and displays the time of week in seconds,
+        K-Points and Z-Counts.&nbsp; This too can be updated continuously.</td>
+    </tr>
+    <tr>
+      <td width="4%" align="center" height="19"><b><img border="0" src="coordtool.gif" width="16" height="16"> 
+        </b></td>
+      <td width="25%" align="center" height="19" bordercolor="#008000"><font color="#008000">Geodetic/ECEF
+        Conversion</font></td>
+      <td width="71%" align="left" height="19" bordercolor="#008000">The
+        Geodetic/ECEF conversion tool converts Earth Centered, Earth Fixed
+        coordinates into Geodetic Latitude, Longitude and Height values and vice
+        versa.&nbsp; Several display options are available for the geodetic
+        type.</td>
+    </tr>
+    <tr>
+      <td width="4%" align="center" height="19"><b><img border="0" src="coordtool.gif" width="16" height="16"> 
+        </b></td>
+      <td width="25%" align="center" height="19" bordercolor="#008000"><font color="#008000">Geodetic
+        Distance Calculator</font></td>
+      <td width="71%" align="left" height="19" bordercolor="#008000">This tool
+        calculates the geodesic distance from one location to another.&nbsp; The
+        output can be converted to several different units.</td>
+    </tr>
+    <tr>
+      <td width="4%" align="center" height="19"><b><img border="0" src="solartool.gif" width="16" height="16"> 
+        </b></td>
+      <td width="25%" align="center" height="19" bordercolor="#FFCC00"><font color="#FFCC00">Daily
+        Solar Tool</font></td>
+      <td width="71%" align="left" height="19" bordercolor="#FFCC00">This tool
+        calculates, based on your specified position and time offset, the
+        sunrise, transit and sunset times.&nbsp; It also calculates the Rise and
+        set azimuth coordinates the Maximum solar elevation and the Right
+        Ascension, Declination, Azimuth and Elevation of the Sun for any given
+        time during the day.&nbsp; This tool uses data for one day only.</td>
+    </tr>
+    <tr>
+      <td width="4%" align="center" height="19"><b><img border="0" src="solartool.gif" width="16" height="16"> 
+        </b></td>
+      <td width="25%" align="center" height="19" bordercolor="#FFCC00"><font color="#FFCC00">Solar
+        Plotter</font></td>
+      <td width="71%" align="left" height="19" bordercolor="#FFCC00">This tool
+        does produces the same information as the Daily Solar tool, but does it
+        for a range of dates and allow you to plot or export the output.</td>
+    </tr>
+    <tr>
+      <td width="4%" align="center" height="19"><b><img border="0" src="lunartool.gif" width="16" height="16"> 
+        </b></td>
+      <td width="25%" align="center" height="19" bordercolor="#0000FF"><font color="#0000FF">Lunar
+        Tool</font></td>
+      <td width="71%" align="left" height="19" bordercolor="#0000FF">This tool
+        calculates the Moon's rise, transit and set times.&nbsp; It also
+        calculates the rise and set azimuth coordinates the maximum lunar
+        elevation and the Right Ascension, Declination, Azimuth and Elevation of
+        the Moon for any given time during the day.&nbsp; Also, the phases of
+        the moon are output (with percentages and pictures) as are the New,
+        First Quarter, Full and Last Quarter dates.&nbsp;</td>
+    </tr>
+    <tr>
+      <td width="4%" align="center" height="19"><b><img border="0" src="siderealtool.gif" width="16" height="16"> 
+        </b></td>
+      <td width="25%" align="center" height="19" bordercolor="#FF0000"><font color="#FF0000">Sidereal
+        and Nutation Tool</font></td>
+      <td width="71%" align="left" height="19" bordercolor="#FF0000">The
+        Sidereal and Nutation tool calculates the mean and apparent sidereal
+        time (Greenwich hour angle) and Nutation parameters of the Earth (Nutation
+        in Longitude (delta psi) and Nutation in obliquity (delta epsilon)) for
+        a given date and time.&nbsp; The true obliquity is also output.&nbsp;
+        You can choose to have the continuously update as well.</td>
+    </tr>
+    <tr>
+      <td width="4%" align="center" height="19"><b><img border="0" src="utilitiestool.gif" width="16" height="16"> 
+        </b></td>
+      <td width="25%" align="center" height="19" bordercolor="#663300"><font color="#663300">Number
+        Converter</font></td>
+      <td width="71%" align="left" height="19" bordercolor="#663300">The Number
+        converter provides an easy way to convert any of the following numbers
+        into the others: binary, octal, integer, hexadecimal.&nbsp; For binary
+        numbers, there is the option to pad the binary output for octal or hex
+        readability.</td>
+    </tr>
+   <tr>
+    <td width="4%" align="center" height="19">
+      <p align="center"><b><img border="0" src="utilitiestool.gif" width="16" height="16"> 
+      </b></td>
+      <td width="25%" align="center" height="19" bordercolor="#663300"><font color="#663300">Color
+      Chooser</font></td>
+    <td width="71%" align="left" height="19" bordercolor="#663300">The color
+      chooser provides a color palette where you can define RGB color levels and
+      then apply them to different programming control types to see how the
+      colors look.&nbsp; The color values are output in RGB, integer and hex
+      formats.</td>
+    </tr>
+  </table>
+  </center>
+</div>
+<p><font size="4"><i>Menus</i></font></p>
+<p>The <i><b>File</b></i> Menu has all of the tools listed by category.&nbsp; Additionally,
+you can exit the tool by selecting File | Exit.&nbsp;</p>
+<p>The <i><b>Options</b></i> menu has two options; Show Toolbar checkbox and
+Preferences.&nbsp; The Show toolbar check box is selected by default.&nbsp; If
+you unselect it, the toolbar will disappear.&nbsp; To make the toolbar reappear,
+select it again.&nbsp; If you didn't already know that you may not have much use
+for this tool.&nbsp; The preferences menu item brings up a panel that lets you
+define your default position in what ever coordinate system the location
+selector accepts (<a href="#Location Selector">see below</a>), and your default
+time offset.&nbsp; The first time you run the tool, these are all set to 0; your
+default position is (0,0,0) (latitude, longitude, height), and the default time
+offset is 0 hours.&nbsp; The default location and time offset parameters are
+stored using the preferences utility in the Java SDK version 1.4 and will
+persist between tool uses.&nbsp; Also, each of the tools that use these defaults
+displays its <i>Active Parameters </i>on the tool's panel - so you know if they
+are correct for your situation.&nbsp; These preferences are needed in the
+following tools: <b><img border="0" src="coordtool.gif" width="16" height="16">,&nbsp;</b>
+<b><img border="0" src="solartool.gif" width="16" height="16"> </b>and<b> <img border="0" src="lunartool.gif" width="16" height="16"></b>.&nbsp;</p>
+<p>The <i><b>Help</b></i> menu contains an item that brings up this help and an
+About menu item that displays the splash panel shown at the top of the page.</p>
+<p><font size="4"><i>Toolbar</i></font></p>
+<p>The toolbar hosts buttons that activate all of the tools in Ted's
+toolbox.&nbsp; Two additional buttons let you access the default preferences
+panel and this help file.&nbsp; The toolbar is floatable; you can click on the
+toolbar on the left and drag it outside of the toolbox application.&nbsp; the
+toolbar can be repositioned to the toolbox by dragging it back into place or
+closing it.</p>
+<p><font size="4"><i>Inputs</i></font></p>
+<p>Any white field in the tool is a data input field.&nbsp; It may also be a
+data output field.&nbsp; If you have data in the format that is required for any
+white field, enter it an press the Enter key, the other data outputs will be
+recalculated.&nbsp; Fields that are gray cannot have their data edited, they are
+strictly data output fields.</p>
+<p><font size="4"><i>Continuously Updated Fields</i></font></p>
+<p>Tools that provide the option of being continuously updated operate using a
+timer set to a 1 second refresh rate.&nbsp; Each time the timer is tripped, the
+currently displayed date/Time is incremented by 1 second and new values
+calculated and output.&nbsp; Because the calculations do NOT reread your systems
+clock each time the time trips, after extended periods of time, the time
+displayed in the <i>Active Parameters</i> panel may be off of your system time.</p>
+<p><font size="4"><i>Active Parameters</i></font></p>
+<p>These areas of the tool panels display the data used to make the
+calculations.&nbsp; The active parameters areas cannot be edited.&nbsp;&nbsp; To
+change the values in any of the <i>Active Parameters</i> fields , either edit
+one of the white background fields and press the Enter key, or press the <i>Change...
+</i>button and edit the fields there.&nbsp;&nbsp;</p>
+<p><font size="4"><i>A Note About Algorithms</i></font></p>
+<p>The algorithms used in this tool have generally come from the book <i><u>Astronomical
+Algorithms</u></i> by Jean Meeus.&nbsp; I have tested my algorithms outputs
+against the test cases that Jean provides in his book and, in so far as he is
+correct, I am correct.&nbsp; My algorithmic outputs match his to a negligible
+round-off error. for all cases for which he provides test data.&nbsp; Of course,
+while Jean gives algorithms for specific outputs, he does not give
+implementations.&nbsp; The implementations of his algorithms are entirely
+mine.&nbsp; I have implemented all of the code and algorithms in Java, version
+1.4.2.&nbsp; Java is the best language I have developed in, having previously
+tried C, C++ and Fortran.&nbsp; There are some modifications that could be made
+to make Java an even better numerical language, but over all it is a fine
+language for programming, numerical or otherwise.&nbsp;&nbsp;</p>
+<p><a href="#top">Back to the Top</a></p>
+<hr>
+<p align="center"><b><font size="4">&nbsp;<img border="0" src="timetool.gif" width="16" height="16">
+ </font>
+<a name="Time Tools"><font size="5">Time Tools</font></a></b></p>
+<p align="left">These tools lets you convert between time standards and find out
+the differences between two times easily.</p>
+<p><font size="4"><i>Time Analysis&nbsp;</i></font></p>
+<p>The Time Analysis tool will initialize with the current date and time from
+your machine. The time parameters are displayed on the top of the tool and you
+may enter parameters on the bottom. The Long Date check box toggles between the
+numeric version of the date and the text version.&nbsp; The 24 Hour check box
+toggles between a 24 hour timescale and a 12 hour, AM/PM scale.&nbsp; Sorry, no
+support for international users in this release.</p>
+<p><font size="4"><i>Time Interval Analysis&nbsp;</i></font></p>
+<p>The Time Interval Analysis tool will let you specify two dates in either
+common date format of Julian date format, and see the time difference between
+them.&nbsp; The Y:M:D:H:M:S field will give you the time difference in
+Years:Months:Days:Hours:Minutes:Seconds and will sometimes have negative
+values.&nbsp; When I have more time I'll do the time rollover math correctly so
+that negative values won't occur.&nbsp; The days display displays the number of
+days and fractional days between time1 and time2.&nbsp; If you enter a value in
+the field, the Time Interval Analysis tool will add the number of days you
+entered to time1 and display that as time2.</p>
+<p><a href="#top">Back to the Top</a></p>
+
+<hr>
+<p align="center"><b>
+<font size="4">
+<img border="0" src="GPStool.gif" width="16" height="16">
+ </font>
+<a name="GPS Tools"><font size="5">GPS Tools</font></a></b></p>
+<p align="left">&nbsp;</p>
+<p><a href="#top">Back to the Top</a></p>
+
+<hr>
+<p align="center"><b>
+<font size="4">
+<img border="0" src="coordtool.gif" width="16" height="16">
+ </font>
+<a name="Coordinate Tools"><font size="5">Coordinate Tools</font></a></b></p>
+<p align="left">&nbsp;</p>
+<p align="left"><a name="Location Selector"><font size="4">Location Selector</font></a></p>
+<p><a href="#top">Back to the Top</a></p>
+
+<hr>
+<p align="center"><b>
+<font size="4">
+<img border="0" src="solartool.gif" width="16" height="16">
+ </font>
+<a name="Solar Tools"><font size="5">Solar Tools</font></a></b></p>
+<p align="left">&nbsp;</p>
+<p><a href="#top">Back to the Top</a></p>
+
+<hr>
+<p align="center"><b>
+<font size="4">
+<img border="0" src="lunartool.gif" width="16" height="16">
+ </font>
+<a name="Lunar Tools"><font size="5">Lunar Tools</font></a></b></p>
+<p align="left">&nbsp;</p>
+<p><a href="#top">Back to the Top</a></p>
+
+<hr>
+<p align="center"><b>
+<font size="4">
+<img border="0" src="siderealtool.gif" width="16" height="16">
+ </font>
+<a name="Sidereal Tools"><font size="5">Sidereal Tools</font></a></b></p>
+<p align="left">&nbsp;</p>
+<p><a href="#top">Back to the Top</a></p>
+
+<hr>
+<p align="center"><b>
+<font size="4">
+<img border="0" src="utilitiestool.gif" width="16" height="16">
+ </font>
+<a name="Utility Tools"><font size="5">Utility Tools</font></a></b></p>
+<p align="left">&nbsp;</p>
+<p><a href="#top">Back to the Top</a></p>
+
+<hr>
+<p align="center"><b><font size="5"><a name="Version History">Version History</a></font></b></p>
+<p align="left">Version 2.1</p>
+
+<ul>
+  <li>
+    <p align="left">I added the applet capability to Ted's Toolbox.</li>
+  <li>
+    <p align="left">I modified the Location Input JavaBean to be more robust in
+    validations and movement from field to field.</li>
+  <li>
+    <p align="left">Several GUI changes - better fit.</li>
+</ul>
+<p align="left">Version 2.0 is completely rewritten from the previous versions. 
+This section will record changes from version 2.0 forward.</p>
+
+<p align="left">&nbsp;</p>
+
+</body>
+
+</html>
